@@ -4,8 +4,13 @@ Created on Mon Sep 21 08:53:18 2026
 
 @author: JONATHAN
 """
-
 from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 import pandas as pd
 import streamlit as st
@@ -19,7 +24,7 @@ from app.services.goal_predictor import GoalPredictor
 import altair as alt
 
 
-ROOT = Path(__file__).resolve().parents[1]
+
 FORECAST_DIR = ROOT / "outputs" / "forecast"
 
 st.set_page_config(
