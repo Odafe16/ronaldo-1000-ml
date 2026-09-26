@@ -9,6 +9,13 @@ The project models both **goal scoring** and **match appearance probability**, t
 > **Goals remaining:** 22  
 > **Forecast horizon:** 28 May 2027
 
+
+## Dashboard Preview
+
+[![Cristiano Ronaldo Road to 1,000 Goals Dashboard](assets/dashboard-preview.png)](https://cr7milestoneforecast.streamlit.app)
+
+*Interactive ML forecast dashboard — click the preview to open the live application.*
+
 ## Live Project
 
 **Interactive Dashboard:**  
