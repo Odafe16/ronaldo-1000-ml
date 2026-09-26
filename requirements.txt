@@ -3,6 +3,6 @@ altair==6.3.0
 pandas==2.2.3
 numpy==2.2.1
 joblib==1.4.2
-scikit-learn==1.6.1
+scikit-learn==1.5.1
 xgboost==3.4.1
 catboost==1.2.10
