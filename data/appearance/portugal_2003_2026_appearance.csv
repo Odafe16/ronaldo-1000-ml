@@ -1,0 +1,291 @@
+date,team,opponent,competition,venue,appeared,match_id,eligible,absence_reason,source_status,source
+2003-08-20,Portugal,Kazakhstan,International Friendly,H,1,2003-08-20_Portugal_Kazakhstan_33,True,,appeared_exact,Transfermarkt + canonical
+2003-09-06,Portugal,Spain,International Friendly,H,0,,True,coach selection / not used,eligible_nonappearance,Transfermarkt + eligibility audit
+2003-09-10,Portugal,Norway,International Friendly,A,0,,True,coach selection / not used,eligible_nonappearance,Transfermarkt + eligibility audit
+2003-10-11,Portugal,Albania,International Friendly,H,1,2003-10-11_Portugal_Albania_40,True,,appeared_exact,Transfermarkt + canonical
+2003-11-15,Portugal,Greece,International Friendly,H,0,,True,senior-team selection decision / assigned to U21,eligible_nonappearance,Transfermarkt + eligibility audit
+2003-11-19,Portugal,Kuwait,International Friendly,H,0,,True,senior-team selection decision / assigned to U21,eligible_nonappearance,Transfermarkt + eligibility audit
+2004-02-18,Portugal,England,International Friendly,H,1,2004-02-18_Portugal_England_59,True,,appeared_exact,Transfermarkt + canonical
+2004-03-31,Portugal,Italy,International Friendly,H,1,2004-03-31_Portugal_Italy_66,True,,appeared_exact,Transfermarkt + canonical
+2004-04-28,Portugal,Sweden,International Friendly,H,1,2004-04-28_Portugal_Sweden_73,True,,appeared_exact,Transfermarkt + canonical
+2004-05-29,Portugal,Luxembourg,International Friendly,H,1,2004-05-29_Portugal_Luxembourg_77,True,,appeared_exact,Transfermarkt + canonical
+2004-06-05,Portugal,Lithuania,International Friendly,H,1,2004-06-05_Portugal_Lithuania_78,True,,appeared_exact,Transfermarkt + canonical
+2004-06-12,Portugal,Greece,Euro Championship,H,1,2004-06-12_Portugal_Greece_79,True,,appeared_exact,Transfermarkt + canonical
+2004-06-16,Portugal,Russia,Euro Championship,A,1,2004-06-16_Portugal_Russia_80,True,,appeared_exact,Transfermarkt + canonical
+2004-06-20,Portugal,Spain,Euro Championship,A,1,2004-06-20_Portugal_Spain_81,True,,appeared_exact,Transfermarkt + canonical
+2004-06-24,Portugal,England,Euro Championship,H,1,2004-06-24_Portugal_England_82,True,,appeared_exact,Transfermarkt + canonical
+2004-06-30,Portugal,Netherlands,Euro Championship,H,1,2004-06-30_Portugal_Netherlands_83,True,,appeared_exact,Transfermarkt + canonical
+2004-07-04,Portugal,Greece,Euro Championship,H,1,2004-07-04_Portugal_Greece_84,True,,appeared_exact,Transfermarkt + canonical
+2004-09-04,Portugal,Latvia,World Cup - Qualification Europe,A,1,2004-09-04_Portugal_Latvia_89,True,,appeared_exact,Transfermarkt + canonical
+2004-09-08,Portugal,Estonia,World Cup - Qualification Europe,H,1,2004-09-08_Portugal_Estonia_90,True,,appeared_exact,Transfermarkt + canonical
+2004-10-09,Portugal,Liechtenstein,World Cup - Qualification Europe,A,1,2004-10-09_Portugal_Liechtenstein_96,True,,appeared_exact,Transfermarkt + canonical
+2004-10-13,Portugal,Russia,World Cup - Qualification Europe,H,1,2004-10-13_Portugal_Russia_97,True,,appeared_exact,Transfermarkt + canonical
+2004-11-17,Portugal,Luxembourg,World Cup - Qualification Europe,A,1,2004-11-17_Portugal_Luxembourg_105,True,,appeared_exact,Transfermarkt + canonical
+2005-02-09,Portugal,Republic of Ireland,International Friendly,A,1,2005-02-09_Portugal_Republic_of_Ireland_124,True,,appeared_exact,Transfermarkt + canonical
+2005-03-26,Portugal,Canada,International Friendly,H,1,2005-03-26_Portugal_Canada_133,True,,appeared_exact,Transfermarkt + canonical
+2005-03-30,Portugal,Slovakia,World Cup - Qualification Europe,A,1,2005-03-30_Portugal_Slovakia_134,True,,appeared_exact,Transfermarkt + canonical
+2005-06-04,Portugal,Slovakia,World Cup - Qualification Europe,H,1,2005-06-04_Portugal_Slovakia_143,True,,appeared_exact,Transfermarkt + canonical
+2005-06-08,Portugal,Estonia,World Cup - Qualification Europe,A,1,2005-06-08_Portugal_Estonia_144,True,,appeared_exact,Transfermarkt + canonical
+2005-08-17,Portugal,Egypt,International Friendly,H,0,,True,ankle injury,eligible_nonappearance,Transfermarkt + eligibility audit
+2005-09-03,Portugal,Luxembourg,World Cup - Qualification Europe,H,1,2005-09-03_Portugal_Luxembourg_149,True,,appeared_exact,Transfermarkt + canonical
+2005-09-07,Portugal,Russia,World Cup - Qualification Europe,A,1,2005-09-07_Portugal_Russia_150,True,,appeared_exact,Transfermarkt + canonical
+2005-10-08,Portugal,Liechtenstein,World Cup - Qualification Europe,H,1,2005-10-08_Portugal_Liechtenstein_156,True,,appeared_exact,Transfermarkt + canonical
+2005-10-12,Portugal,Latvia,World Cup - Qualification Europe,H,1,2005-10-12_Portugal_Latvia_157,True,,appeared_exact,Transfermarkt + canonical
+2005-11-12,Portugal,Croatia,International Friendly,H,1,2005-11-12_Portugal_Croatia_164,True,,appeared_exact,Transfermarkt + canonical
+2005-11-15,Portugal,Northern Ireland,International Friendly,A,1,2005-11-15_Portugal_Northern_Ireland_165,True,,appeared_exact,Transfermarkt + canonical
+2006-03-01,Portugal,Saudi Arabia,International Friendly,H,1,2006-03-01_Portugal_Saudi_Arabia_186,True,,appeared_exact,Transfermarkt + canonical
+2006-05-27,Portugal,Cape Verde,International Friendly,H,1,2006-05-27_Portugal_Cape_Verde_199,True,,appeared_exact,Transfermarkt + canonical
+2006-06-03,Portugal,Luxembourg,International Friendly,A,1,2006-06-03_Portugal_Luxembourg_200,True,,appeared_exact,Transfermarkt + canonical
+2006-06-11,Portugal,Angola,World Cup,A,1,2006-06-11_Portugal_Angola_201,True,,appeared_exact,Transfermarkt + canonical
+2006-06-17,Portugal,Iran,World Cup,H,1,2006-06-17_Portugal_Iran_202,True,,appeared_exact,Transfermarkt + canonical
+2006-06-21,Portugal,Mexico,World Cup,H,0,,True,rested / rotation after qualification,eligible_nonappearance,Transfermarkt + eligibility audit
+2006-06-25,Portugal,Netherlands,World Cup,H,1,2006-06-25_Portugal_Netherlands_203,True,,appeared_exact,Transfermarkt + canonical
+2006-07-01,Portugal,England,World Cup,A,1,2006-07-01_Portugal_England_204,True,,appeared_exact,Transfermarkt + canonical
+2006-07-05,Portugal,France,World Cup,H,1,2006-07-05_Portugal_France_205,True,,appeared_exact,Transfermarkt + canonical
+2006-07-08,Portugal,Germany,World Cup,A,1,2006-07-08_Portugal_Germany_206,True,,appeared_exact,Transfermarkt + canonical
+2006-09-01,Portugal,Denmark,International Friendly,A,1,2006-09-01_Portugal_Denmark_210,True,,appeared_exact,Transfermarkt + canonical
+2006-09-06,Portugal,Finland,Euros Qualifier,A,1,2006-09-06_Portugal_Finland_211,True,,appeared_exact,Transfermarkt + canonical
+2006-10-07,Portugal,Azerbaijan,Euros Qualifier,H,1,2006-10-07_Portugal_Azerbaijan_217,True,,appeared_exact,Transfermarkt + canonical
+2006-10-11,Portugal,Poland,Euros Qualifier,A,1,2006-10-11_Portugal_Poland_218,True,,appeared_exact,Transfermarkt + canonical
+2006-11-15,Portugal,Kazakhstan,Euros Qualifier,H,1,2006-11-15_Portugal_Kazakhstan_225,True,,appeared_exact,Transfermarkt + canonical
+2007-02-06,Portugal,Brazil,International Friendly,A,1,2007-02-06_Portugal_Brazil_243,True,,appeared_exact,Transfermarkt + canonical
+2007-03-24,Portugal,Belgium,Euros Qualifier,H,1,2007-03-24_Portugal_Belgium_253,True,,appeared_exact,Transfermarkt + canonical
+2007-03-28,Portugal,Serbia,Euros Qualifier,A,1,2007-03-28_Portugal_Serbia_254,True,,appeared_exact,Transfermarkt + canonical
+2007-08-22,Portugal,Armenia,Euros Qualifier,A,1,2007-08-22_Portugal_Armenia_271,True,,appeared_exact,Transfermarkt + canonical
+2007-09-08,Portugal,Poland,Euros Qualifier,H,1,2007-09-08_Portugal_Poland_272,True,,appeared_exact,Transfermarkt + canonical
+2007-09-12,Portugal,Serbia,Euros Qualifier,H,1,2007-09-12_Portugal_Serbia_273,True,,appeared_exact,Transfermarkt + canonical
+2007-10-13,Portugal,Azerbaijan,Euros Qualifier,A,1,2007-10-13_Portugal_Azerbaijan_280,True,,appeared_exact,Transfermarkt + canonical
+2007-10-17,Portugal,Kazakhstan,Euros Qualifier,A,1,2007-10-17_Portugal_Kazakhstan_281,True,,appeared_exact,Transfermarkt + canonical
+2007-11-17,Portugal,Armenia,Euros Qualifier,H,1,2007-11-17_Portugal_Armenia_288,True,,appeared_exact,Transfermarkt + canonical
+2007-11-21,Portugal,Finland,Euros Qualifier,H,1,2007-11-21_Portugal_Finland_289,True,,appeared_exact,Transfermarkt + canonical
+2008-02-06,Portugal,Italy,International Friendly,A,1,2008-02-06_Portugal_Italy_304,True,,appeared_exact,Transfermarkt + canonical
+2008-03-26,Portugal,Greece,International Friendly,A,0,,True,left-thigh muscular injury,eligible_nonappearance,Transfermarkt + eligibility audit
+2008-05-31,Portugal,Georgia,International Friendly,H,1,2008-05-31_Portugal_Georgia_325,True,,appeared_exact,Transfermarkt + canonical
+2008-06-07,Portugal,Türkiye,Euro Championship,H,1,2008-06-07_Portugal_Türkiye_326,True,,appeared_exact,Transfermarkt + canonical
+2008-06-11,Portugal,Czech Republic,Euro Championship,A,1,2008-06-11_Portugal_Czech_Republic_327,True,,appeared_exact,Transfermarkt + canonical
+2008-06-15,Portugal,Switzerland,Euro Championship,A,0,,True,rested / rotation after qualification,eligible_nonappearance,Transfermarkt + eligibility audit
+2008-06-19,Portugal,Germany,Euro Championship,H,1,2008-06-19_Portugal_Germany_328,True,,appeared_exact,Transfermarkt + canonical
+2008-08-20,Portugal,Faroe Islands,International Friendly,H,0,,True,recovering from ankle surgery,eligible_nonappearance,Transfermarkt + eligibility audit
+2008-09-06,Portugal,Malta,World Cup - Qualification Europe,A,0,,True,recovering from ankle surgery,eligible_nonappearance,Transfermarkt + eligibility audit
+2008-09-10,Portugal,Denmark,World Cup - Qualification Europe,H,0,,True,recovering from ankle surgery,eligible_nonappearance,Transfermarkt + eligibility audit
+2008-10-11,Portugal,Sweden,World Cup - Qualification Europe,A,1,2008-10-11_Portugal_Sweden_335,True,,appeared_exact,Transfermarkt + canonical
+2008-10-15,Portugal,Albania,World Cup - Qualification Europe,H,1,2008-10-15_Portugal_Albania_336,True,,appeared_exact,Transfermarkt + canonical
+2008-11-20,Portugal,Brazil,International Friendly,A,1,2008-11-20_Portugal_Brazil_345,True,,appeared_date_reconciled,Transfermarkt + canonical
+2009-02-11,Portugal,Finland,International Friendly,H,1,2009-02-11_Portugal_Finland_364,True,,appeared_exact,Transfermarkt + canonical
+2009-03-28,Portugal,Sweden,World Cup - Qualification Europe,H,1,2009-03-28_Portugal_Sweden_374,True,,appeared_exact,Transfermarkt + canonical
+2009-03-31,Portugal,South Africa,International Friendly,A,1,2009-03-31_Portugal_South_Africa_375,True,,appeared_exact,Transfermarkt + canonical
+2009-06-06,Portugal,Albania,World Cup - Qualification Europe,A,1,2009-06-06_Portugal_Albania_388,True,,appeared_exact,Transfermarkt + canonical
+2009-06-10,Portugal,Estonia,International Friendly,A,0,,True,physical problem / pubalgia,eligible_nonappearance,Transfermarkt + eligibility audit
+2009-08-12,Portugal,Liechtenstein,International Friendly,A,0,,True,illness / flu,eligible_nonappearance,Transfermarkt + eligibility audit
+2009-09-05,Portugal,Denmark,World Cup - Qualification Europe,A,1,2009-09-05_Portugal_Denmark_390,True,,appeared_exact,Transfermarkt + canonical
+2009-09-09,Portugal,Hungary,World Cup - Qualification Europe,A,1,2009-09-09_Portugal_Hungary_391,True,,appeared_exact,Transfermarkt + canonical
+2009-10-10,Portugal,Hungary,World Cup - Qualification Europe,H,1,2009-10-10_Portugal_Hungary_398,True,,appeared_exact,Transfermarkt + canonical
+2009-10-14,Portugal,Malta,World Cup - Qualification Europe,H,0,,True,ankle injury,eligible_nonappearance,Transfermarkt + eligibility audit
+2009-11-14,Portugal,Bosnia & Herzegovina,World Cup - Qualification Europe,H,0,,True,ankle injury,eligible_nonappearance,Transfermarkt + eligibility audit
+2009-11-18,Portugal,Bosnia & Herzegovina,World Cup - Qualification Europe,A,0,,True,ankle injury,eligible_nonappearance,Transfermarkt + eligibility audit
+2010-03-03,Portugal,China,International Friendly,H,1,2010-03-03_Portugal_China_412,True,,appeared_exact,Transfermarkt + canonical
+2010-05-24,Portugal,Cape Verde,International Friendly,H,1,2010-05-24_Portugal_Cape_Verde_428,True,,appeared_exact,Transfermarkt + canonical
+2010-06-01,Portugal,Cameroon,International Friendly,H,1,2010-06-01_Portugal_Cameroon_429,True,,appeared_exact,Transfermarkt + canonical
+2010-06-08,Portugal,Mozambique,International Friendly,A,1,2010-06-08_Portugal_Mozambique_430,True,,appeared_exact,Transfermarkt + canonical
+2010-06-15,Portugal,Ivory Coast,World Cup,A,1,2010-06-15_Portugal_Ivory_Coast_431,True,,appeared_exact,Transfermarkt + canonical
+2010-06-21,Portugal,North Korea,World Cup,H,1,2010-06-21_Portugal_North_Korea_432,True,,appeared_exact,Transfermarkt + canonical
+2010-06-25,Portugal,Brazil,World Cup,H,1,2010-06-25_Portugal_Brazil_433,True,,appeared_exact,Transfermarkt + canonical
+2010-06-29,Portugal,Spain,World Cup,A,1,2010-06-29_Portugal_Spain_434,True,,appeared_exact,Transfermarkt + canonical
+2010-09-03,Portugal,Cyprus,Euros Qualifier,H,0,,True,right-ankle injury,eligible_nonappearance,Transfermarkt + eligibility audit
+2010-09-07,Portugal,Norway,Euros Qualifier,A,0,,True,right-ankle injury,eligible_nonappearance,Transfermarkt + eligibility audit
+2010-10-08,Portugal,Denmark,Euros Qualifier,H,1,2010-10-08_Portugal_Denmark_443,True,,appeared_exact,Transfermarkt + canonical
+2010-10-12,Portugal,Iceland,Euros Qualifier,A,1,2010-10-12_Portugal_Iceland_444,True,,appeared_exact,Transfermarkt + canonical
+2010-11-17,Portugal,Spain,International Friendly,H,1,2010-11-17_Portugal_Spain_454,True,,appeared_exact,Transfermarkt + canonical
+2011-02-09,Portugal,Argentina,International Friendly,H,1,2011-02-09_Portugal_Argentina_473,True,,appeared_exact,Transfermarkt + canonical
+2011-03-26,Portugal,Chile,International Friendly,H,0,,True,hamstring injury,eligible_nonappearance,Transfermarkt + eligibility audit
+2011-03-29,Portugal,Finland,International Friendly,H,0,,True,hamstring injury,eligible_nonappearance,Transfermarkt + eligibility audit
+2011-06-04,Portugal,Norway,Euros Qualifier,H,1,2011-06-04_Portugal_Norway_493,True,,appeared_exact,Transfermarkt + canonical
+2011-08-10,Portugal,Luxembourg,International Friendly,H,1,2011-08-10_Portugal_Luxembourg_494,True,,appeared_exact,Transfermarkt + canonical
+2011-09-02,Portugal,Cyprus,Euros Qualifier,A,1,2011-09-02_Portugal_Cyprus_498,True,,appeared_exact,Transfermarkt + canonical
+2011-10-07,Portugal,Iceland,Euros Qualifier,H,1,2011-10-07_Portugal_Iceland_506,True,,appeared_exact,Transfermarkt + canonical
+2011-10-11,Portugal,Denmark,Euros Qualifier,A,1,2011-10-11_Portugal_Denmark_507,True,,appeared_exact,Transfermarkt + canonical
+2011-11-11,Portugal,Bosnia & Herzegovina,Euros Qualifier,A,1,2011-11-11_Portugal_Bosnia_&_Herzegovina_515,True,,appeared_exact,Transfermarkt + canonical
+2011-11-15,Portugal,Bosnia & Herzegovina,Euros Qualifier,H,1,2011-11-15_Portugal_Bosnia_&_Herzegovina_516,True,,appeared_exact,Transfermarkt + canonical
+2012-02-29,Portugal,Poland,International Friendly,A,1,2012-02-29_Portugal_Poland_536,True,,appeared_exact,Transfermarkt + canonical
+2012-05-26,Portugal,North Macedonia,International Friendly,H,1,2012-05-26_Portugal_North_Macedonia_556,True,,appeared_exact,Transfermarkt + canonical
+2012-06-02,Portugal,Türkiye,International Friendly,H,1,2012-06-02_Portugal_Türkiye_557,True,,appeared_exact,Transfermarkt + canonical
+2012-06-09,Portugal,Germany,Euro Championship,A,1,2012-06-09_Portugal_Germany_558,True,,appeared_exact,Transfermarkt + canonical
+2012-06-13,Portugal,Denmark,Euro Championship,A,1,2012-06-13_Portugal_Denmark_559,True,,appeared_exact,Transfermarkt + canonical
+2012-06-17,Portugal,Netherlands,Euro Championship,H,1,2012-06-17_Portugal_Netherlands_560,True,,appeared_exact,Transfermarkt + canonical
+2012-06-21,Portugal,Czech Republic,Euro Championship,A,1,2012-06-21_Portugal_Czech_Republic_561,True,,appeared_exact,Transfermarkt + canonical
+2012-06-27,Portugal,Spain,Euro Championship,H,1,2012-06-27_Portugal_Spain_562,True,,appeared_exact,Transfermarkt + canonical
+2012-08-15,Portugal,Panama,International Friendly,H,1,2012-08-15_Portugal_Panama_563,True,,appeared_exact,Transfermarkt + canonical
+2012-09-07,Portugal,Luxembourg,World Cup - Qualification Europe,A,1,2012-09-07_Portugal_Luxembourg_569,True,,appeared_exact,Transfermarkt + canonical
+2012-09-11,Portugal,Azerbaijan,World Cup - Qualification Europe,H,1,2012-09-11_Portugal_Azerbaijan_570,True,,appeared_exact,Transfermarkt + canonical
+2012-10-12,Portugal,Russia,World Cup - Qualification Europe,A,1,2012-10-12_Portugal_Russia_577,True,,appeared_exact,Transfermarkt + canonical
+2012-10-16,Portugal,Northern Ireland,World Cup - Qualification Europe,H,1,2012-10-16_Portugal_Northern_Ireland_578,True,,appeared_exact,Transfermarkt + canonical
+2012-11-14,Portugal,Gabon,International Friendly,A,0,,True,injury withdrawal,eligible_nonappearance,Transfermarkt + eligibility audit
+2013-02-06,Portugal,Ecuador,International Friendly,H,1,2013-02-06_Portugal_Ecuador_602,True,,appeared_exact,Transfermarkt + canonical
+2013-03-22,Portugal,Israel,World Cup - Qualification Europe,A,1,2013-03-22_Portugal_Israel_612,True,,appeared_exact,Transfermarkt + canonical
+2013-06-07,Portugal,Russia,World Cup - Qualification Europe,H,1,2013-06-07_Portugal_Russia_625,True,,appeared_exact,Transfermarkt + canonical
+2013-06-10,Portugal,Croatia,International Friendly,A,1,2013-06-10_Portugal_Croatia_626,True,,appeared_exact,Transfermarkt + canonical
+2013-08-14,Portugal,Netherlands,International Friendly,H,1,2013-08-14_Portugal_Netherlands_627,True,,appeared_exact,Transfermarkt + canonical
+2013-09-06,Portugal,Northern Ireland,World Cup - Qualification Europe,A,1,2013-09-06_Portugal_Northern_Ireland_631,True,,appeared_exact,Transfermarkt + canonical
+2013-09-11,Portugal,Brazil,International Friendly,A,0,,True,tendinitis / physical problem,eligible_nonappearance,Transfermarkt + eligibility audit
+2013-10-11,Portugal,Israel,World Cup - Qualification Europe,H,1,2013-10-11_Portugal_Israel_639,True,,appeared_exact,Transfermarkt + canonical
+2013-11-15,Portugal,Sweden,World Cup - Qualification Europe,H,1,2013-11-15_Portugal_Sweden_647,True,,appeared_exact,Transfermarkt + canonical
+2013-11-19,Portugal,Sweden,World Cup - Qualification Europe,A,1,2013-11-19_Portugal_Sweden_648,True,,appeared_exact,Transfermarkt + canonical
+2014-03-05,Portugal,Cameroon,International Friendly,H,1,2014-03-05_Portugal_Cameroon_666,True,,appeared_exact,Transfermarkt + canonical
+2014-05-31,Portugal,Greece,International Friendly,H,0,,True,thigh injury / fitness management,eligible_nonappearance,Transfermarkt + eligibility audit
+2014-06-07,Portugal,Mexico,International Friendly,A,0,,True,patellar tendinosis / thigh injury,eligible_nonappearance,Transfermarkt + eligibility audit
+2014-06-11,Portugal,Republic of Ireland,International Friendly,H,1,2014-06-11_Portugal_Republic_of_Ireland_680,True,,appeared_exact,Transfermarkt + canonical
+2014-06-16,Portugal,Germany,World Cup,A,1,2014-06-16_Portugal_Germany_681,True,,appeared_exact,Transfermarkt + canonical
+2014-06-22,Portugal,USA,World Cup,A,1,2014-06-22_Portugal_USA_682,True,,appeared_date_reconciled,Transfermarkt + canonical
+2014-06-26,Portugal,Ghana,World Cup,H,1,2014-06-26_Portugal_Ghana_683,True,,appeared_exact,Transfermarkt + canonical
+2014-09-07,Portugal,Albania,Euros Qualifier,H,0,,True,physical condition / not fit to compete,eligible_nonappearance,Transfermarkt + eligibility audit
+2014-10-11,Portugal,France,International Friendly,A,1,2014-10-11_Portugal_France_695,True,,appeared_exact,Transfermarkt + canonical
+2014-10-14,Portugal,Denmark,Euros Qualifier,A,1,2014-10-14_Portugal_Denmark_696,True,,appeared_exact,Transfermarkt + canonical
+2014-11-14,Portugal,Armenia,Euros Qualifier,H,1,2014-11-14_Portugal_Armenia_703,True,,appeared_exact,Transfermarkt + canonical
+2014-11-18,Portugal,Argentina,International Friendly,A,1,2014-11-18_Portugal_Argentina_704,True,,appeared_exact,Transfermarkt + canonical
+2015-03-29,Portugal,Serbia,Euros Qualifier,H,1,2015-03-29_Portugal_Serbia_728,True,,appeared_exact,Transfermarkt + canonical
+2015-03-31,Portugal,Cape Verde,International Friendly,H,0,,True,rested / squad rotation,eligible_nonappearance,Transfermarkt + eligibility audit
+2015-06-13,Portugal,Armenia,Euros Qualifier,A,1,2015-06-13_Portugal_Armenia_743,True,,appeared_exact,Transfermarkt + canonical
+2015-06-16,Portugal,Italy,International Friendly,A,0,,True,released by coach / workload management,eligible_nonappearance,Transfermarkt + eligibility audit
+2015-09-04,Portugal,France,International Friendly,H,1,2015-09-04_Portugal_France_746,True,,appeared_exact,Transfermarkt + canonical
+2015-09-07,Portugal,Albania,Euros Qualifier,A,1,2015-09-07_Portugal_Albania_747,True,,appeared_exact,Transfermarkt + canonical
+2015-10-08,Portugal,Denmark,Euros Qualifier,H,1,2015-10-08_Portugal_Denmark_755,True,,appeared_exact,Transfermarkt + canonical
+2015-10-11,Portugal,Serbia,Euros Qualifier,A,0,,True,released by coach after qualification,eligible_nonappearance,Transfermarkt + eligibility audit
+2015-11-14,Portugal,Russia,International Friendly,A,0,,True,rest / workload management,eligible_nonappearance,Transfermarkt + eligibility audit
+2015-11-17,Portugal,Luxembourg,International Friendly,A,0,,True,rest / workload management,eligible_nonappearance,Transfermarkt + eligibility audit
+2016-03-25,Portugal,Bulgaria,International Friendly,H,1,2016-03-25_Portugal_Bulgaria_785,True,,appeared_exact,Transfermarkt + canonical
+2016-03-29,Portugal,Belgium,International Friendly,H,1,2016-03-29_Portugal_Belgium_786,True,,appeared_exact,Transfermarkt + canonical
+2016-05-29,Portugal,Norway,International Friendly,H,0,,True,rest after Champions League final,eligible_nonappearance,Transfermarkt + eligibility audit
+2016-06-02,Portugal,England,International Friendly,A,0,,True,rest after Champions League final,eligible_nonappearance,Transfermarkt + eligibility audit
+2016-06-09,Portugal,Estonia,International Friendly,H,1,2016-06-09_Portugal_Estonia_797,True,,appeared_date_reconciled,Transfermarkt + canonical
+2016-06-14,Portugal,Iceland,Euro Championship,H,1,2016-06-14_Portugal_Iceland_798,True,,appeared_exact,Transfermarkt + canonical
+2016-06-18,Portugal,Austria,Euro Championship,H,1,2016-06-18_Portugal_Austria_799,True,,appeared_exact,Transfermarkt + canonical
+2016-06-22,Portugal,Hungary,Euro Championship,A,1,2016-06-22_Portugal_Hungary_800,True,,appeared_exact,Transfermarkt + canonical
+2016-06-25,Portugal,Croatia,Euro Championship,A,1,2016-06-25_Portugal_Croatia_801,True,,appeared_exact,Transfermarkt + canonical
+2016-06-30,Portugal,Poland,Euro Championship,A,1,2016-06-30_Portugal_Poland_802,True,,appeared_exact,Transfermarkt + canonical
+2016-07-06,Portugal,Wales,Euro Championship,H,1,2016-07-06_Portugal_Wales_803,True,,appeared_exact,Transfermarkt + canonical
+2016-07-10,Portugal,France,Euro Championship,H,1,2016-07-10_Portugal_France_804,True,,appeared_exact,Transfermarkt + canonical
+2016-09-01,Portugal,Gibraltar,International Friendly,H,0,,True,knee injury recovery,eligible_nonappearance,Transfermarkt + eligibility audit
+2016-09-06,Portugal,Switzerland,World Cup - Qualification Europe,A,0,,True,internal ligament injury,eligible_nonappearance,Transfermarkt + eligibility audit
+2016-10-07,Portugal,Andorra,World Cup - Qualification Europe,H,1,2016-10-07_Portugal_Andorra_811,True,,appeared_exact,Transfermarkt + canonical
+2016-10-10,Portugal,Faroe Islands,World Cup - Qualification Europe,A,1,2016-10-10_Portugal_Faroe_Islands_812,True,,appeared_exact,Transfermarkt + canonical
+2016-11-13,Portugal,Latvia,World Cup - Qualification Europe,H,1,2016-11-13_Portugal_Latvia_819,True,,appeared_exact,Transfermarkt + canonical
+2017-03-25,Portugal,Hungary,World Cup - Qualification Europe,H,1,2017-03-25_Portugal_Hungary_842,True,,appeared_exact,Transfermarkt + canonical
+2017-03-28,Portugal,Sweden,International Friendly,H,1,2017-03-28_Portugal_Sweden_843,True,,appeared_exact,Transfermarkt + canonical
+2017-06-03,Portugal,Cyprus,International Friendly,H,0,,True,club duty / Champions League final,eligible_nonappearance,Transfermarkt + eligibility audit
+2017-06-09,Portugal,Latvia,World Cup - Qualification Europe,A,1,2017-06-09_Portugal_Latvia_856,True,,appeared_exact,Transfermarkt + canonical
+2017-06-18,Portugal,Mexico,Confederations Cup,H,1,2017-06-18_Portugal_Mexico_857,True,,appeared_exact,Transfermarkt + canonical
+2017-06-21,Portugal,Russia,Confederations Cup,A,1,2017-06-21_Portugal_Russia_858,True,,appeared_exact,Transfermarkt + canonical
+2017-06-24,Portugal,New Zealand,Confederations Cup,A,1,2017-06-24_Portugal_New_Zealand_859,True,,appeared_exact,Transfermarkt + canonical
+2017-06-28,Portugal,Chile,Confederations Cup,H,1,2017-06-28_Portugal_Chile_860,True,,appeared_exact,Transfermarkt + canonical
+2017-07-02,Portugal,Mexico,Confederations Cup,H,0,,True,personal leave / newborn children,eligible_nonappearance,Transfermarkt + eligibility audit
+2017-08-31,Portugal,Faroe Islands,World Cup - Qualification Europe,H,1,2017-08-31_Portugal_Faroe_Islands_863,True,,appeared_exact,Transfermarkt + canonical
+2017-09-03,Portugal,Hungary,World Cup - Qualification Europe,A,1,2017-09-03_Portugal_Hungary_864,True,,appeared_exact,Transfermarkt + canonical
+2017-10-07,Portugal,Andorra,World Cup - Qualification Europe,A,1,2017-10-07_Portugal_Andorra_870,True,,appeared_exact,Transfermarkt + canonical
+2017-10-10,Portugal,Switzerland,World Cup - Qualification Europe,H,1,2017-10-10_Portugal_Switzerland_871,True,,appeared_exact,Transfermarkt + canonical
+2017-11-10,Portugal,Saudi Arabia,International Friendly,H,0,,True,rest / coach selection management,eligible_nonappearance,Transfermarkt + eligibility audit
+2017-11-14,Portugal,USA,International Friendly,H,0,,True,rest / coach selection management,eligible_nonappearance,Transfermarkt + eligibility audit
+2018-03-23,Portugal,Egypt,International Friendly,H,1,2018-03-23_Portugal_Egypt_900,True,,appeared_exact,Transfermarkt + canonical
+2018-03-26,Portugal,Netherlands,International Friendly,A,1,2018-03-26_Portugal_Netherlands_901,True,,appeared_exact,Transfermarkt + canonical
+2018-05-28,Portugal,Tunisia,International Friendly,H,0,,True,rest after Champions League final,eligible_nonappearance,Transfermarkt + eligibility audit
+2018-06-02,Portugal,Belgium,International Friendly,A,0,,True,rest after Champions League final,eligible_nonappearance,Transfermarkt + eligibility audit
+2018-06-07,Portugal,Algeria,International Friendly,H,1,2018-06-07_Portugal_Algeria_911,True,,appeared_exact,Transfermarkt + canonical
+2018-06-15,Portugal,Spain,World Cup,H,1,2018-06-15_Portugal_Spain_912,True,,appeared_exact,Transfermarkt + canonical
+2018-06-20,Portugal,Morocco,World Cup,H,1,2018-06-20_Portugal_Morocco_913,True,,appeared_exact,Transfermarkt + canonical
+2018-06-25,Portugal,Iran,World Cup,A,1,2018-06-25_Portugal_Iran_914,True,,appeared_exact,Transfermarkt + canonical
+2018-06-30,Portugal,Uruguay,World Cup,A,1,2018-06-30_Portugal_Uruguay_915,True,,appeared_exact,Transfermarkt + canonical
+2018-09-06,Portugal,Croatia,International Friendly,H,0,,True,voluntary international break / rest,eligible_nonappearance,Transfermarkt + eligibility audit
+2018-09-10,Portugal,Italy,UEFA Nations League,H,0,,True,voluntary international break / rest,eligible_nonappearance,Transfermarkt + eligibility audit
+2018-10-11,Portugal,Poland,UEFA Nations League,A,0,,True,coach-player agreement / international break,eligible_nonappearance,Transfermarkt + eligibility audit
+2018-10-14,Portugal,Scotland,International Friendly,A,0,,True,coach-player agreement / international break,eligible_nonappearance,Transfermarkt + eligibility audit
+2018-11-17,Portugal,Italy,UEFA Nations League,A,0,,True,coach-player agreement / rest,eligible_nonappearance,Transfermarkt + eligibility audit
+2018-11-20,Portugal,Poland,UEFA Nations League,H,0,,True,coach-player agreement / rest,eligible_nonappearance,Transfermarkt + eligibility audit
+2019-03-22,Portugal,Ukraine,Euros Qualifier,H,1,2019-03-22_Portugal_Ukraine_952,True,,appeared_exact,Transfermarkt + canonical
+2019-03-25,Portugal,Serbia,Euros Qualifier,H,1,2019-03-25_Portugal_Serbia_953,True,,appeared_exact,Transfermarkt + canonical
+2019-06-05,Portugal,Switzerland,UEFA Nations League,H,1,2019-06-05_Portugal_Switzerland_961,True,,appeared_exact,Transfermarkt + canonical
+2019-06-09,Portugal,Netherlands,UEFA Nations League,H,1,2019-06-09_Portugal_Netherlands_962,True,,appeared_exact,Transfermarkt + canonical
+2019-09-07,Portugal,Serbia,Euros Qualifier,A,1,2019-09-07_Portugal_Serbia_965,True,,appeared_exact,Transfermarkt + canonical
+2019-09-10,Portugal,Lithuania,Euros Qualifier,A,1,2019-09-10_Portugal_Lithuania_966,True,,appeared_exact,Transfermarkt + canonical
+2019-10-11,Portugal,Luxembourg,Euros Qualifier,H,1,2019-10-11_Portugal_Luxembourg_973,True,,appeared_exact,Transfermarkt + canonical
+2019-10-14,Portugal,Ukraine,Euros Qualifier,A,1,2019-10-14_Portugal_Ukraine_974,True,,appeared_exact,Transfermarkt + canonical
+2019-11-14,Portugal,Lithuania,Euros Qualifier,H,1,2019-11-14_Portugal_Lithuania_981,True,,appeared_exact,Transfermarkt + canonical
+2019-11-17,Portugal,Luxembourg,Euros Qualifier,A,1,2019-11-17_Portugal_Luxembourg_982,True,,appeared_exact,Transfermarkt + canonical
+2020-09-05,Portugal,Croatia,UEFA Nations League,H,0,,True,toe infection,eligible_nonappearance,Transfermarkt + eligibility audit
+2020-09-08,Portugal,Sweden,UEFA Nations League,A,1,2020-09-08_Portugal_Sweden_1015,True,,appeared_exact,Transfermarkt + canonical
+2020-10-07,Portugal,Spain,International Friendly,H,1,2020-10-07_Portugal_Spain_1018,True,,appeared_exact,Transfermarkt + canonical
+2020-10-11,Portugal,France,UEFA Nations League,A,1,2020-10-11_Portugal_France_1019,True,,appeared_exact,Transfermarkt + canonical
+2020-10-14,Portugal,Sweden,UEFA Nations League,H,0,,True,COVID-19 infection / isolation,eligible_nonappearance,Transfermarkt + eligibility audit
+2020-11-11,Portugal,Andorra,International Friendly,H,1,2020-11-11_Portugal_Andorra_1023,True,,appeared_exact,Transfermarkt + canonical
+2020-11-14,Portugal,France,UEFA Nations League,H,1,2020-11-14_Portugal_France_1024,True,,appeared_exact,Transfermarkt + canonical
+2020-11-17,Portugal,Croatia,UEFA Nations League,A,1,2020-11-17_Portugal_Croatia_1025,True,,appeared_exact,Transfermarkt + canonical
+2021-03-24,Portugal,Azerbaijan,World Cup - Qualification Europe,H,1,2021-03-24_Portugal_Azerbaijan_1055,True,,appeared_exact,Transfermarkt + canonical
+2021-03-27,Portugal,Serbia,World Cup - Qualification Europe,A,1,2021-03-27_Portugal_Serbia_1056,True,,appeared_exact,Transfermarkt + canonical
+2021-03-30,Portugal,Luxembourg,World Cup - Qualification Europe,A,1,2021-03-30_Portugal_Luxembourg_1057,True,,appeared_exact,Transfermarkt + canonical
+2021-06-04,Portugal,Spain,International Friendly,A,1,2021-06-04_Portugal_Spain_1068,True,,appeared_exact,Transfermarkt + canonical
+2021-06-09,Portugal,Israel,International Friendly,H,1,2021-06-09_Portugal_Israel_1069,True,,appeared_exact,Transfermarkt + canonical
+2021-06-15,Portugal,Hungary,Euro Championship,A,1,2021-06-15_Portugal_Hungary_1070,True,,appeared_exact,Transfermarkt + canonical
+2021-06-19,Portugal,Germany,Euro Championship,H,1,2021-06-19_Portugal_Germany_1071,True,,appeared_exact,Transfermarkt + canonical
+2021-06-23,Portugal,France,Euro Championship,H,1,2021-06-23_Portugal_France_1072,True,,appeared_exact,Transfermarkt + canonical
+2021-06-27,Portugal,Belgium,Euro Championship,A,1,2021-06-27_Portugal_Belgium_1073,True,,appeared_exact,Transfermarkt + canonical
+2021-09-01,Portugal,Republic of Ireland,World Cup - Qualification Europe,H,1,2021-09-01_Portugal_Republic_of_Ireland_1075,True,,appeared_exact,Transfermarkt + canonical
+2021-09-04,Portugal,Qatar,International Friendly,A,0,,True,released early from national-team camp,eligible_nonappearance,Transfermarkt + eligibility audit
+2021-10-09,Portugal,Qatar,International Friendly,H,1,2021-10-09_Portugal_Qatar_1082,True,,appeared_exact,Transfermarkt + canonical
+2021-10-12,Portugal,Luxembourg,World Cup - Qualification Europe,H,1,2021-10-12_Portugal_Luxembourg_1083,True,,appeared_exact,Transfermarkt + canonical
+2021-11-11,Portugal,Republic of Ireland,World Cup - Qualification Europe,A,1,2021-11-11_Portugal_Republic_of_Ireland_1090,True,,appeared_exact,Transfermarkt + canonical
+2021-11-14,Portugal,Serbia,World Cup - Qualification Europe,H,1,2021-11-14_Portugal_Serbia_1091,True,,appeared_exact,Transfermarkt + canonical
+2022-03-24,Portugal,Türkiye,World Cup - Qualification Europe,H,1,2022-03-24_Portugal_Türkiye_1112,True,,appeared_exact,Transfermarkt + canonical
+2022-03-29,Portugal,North Macedonia,World Cup - Qualification Europe,H,1,2022-03-29_Portugal_North_Macedonia_1113,True,,appeared_exact,Transfermarkt + canonical
+2022-06-02,Portugal,Spain,UEFA Nations League,A,1,2022-06-02_Portugal_Spain_1120,True,,appeared_exact,Transfermarkt + canonical
+2022-06-05,Portugal,Switzerland,UEFA Nations League,H,1,2022-06-05_Portugal_Switzerland_1121,True,,appeared_exact,Transfermarkt + canonical
+2022-06-09,Portugal,Czech Republic,UEFA Nations League,H,1,2022-06-09_Portugal_Czech_Republic_1122,True,,appeared_exact,Transfermarkt + canonical
+2022-06-12,Portugal,Switzerland,UEFA Nations League,A,0,,True,rested / workload management,eligible_nonappearance,Transfermarkt + eligibility audit
+2022-09-24,Portugal,Czech Republic,UEFA Nations League,A,1,2022-09-24_Portugal_Czech_Republic_1131,True,,appeared_exact,Transfermarkt + canonical
+2022-09-27,Portugal,Spain,UEFA Nations League,H,1,2022-09-27_Portugal_Spain_1132,True,,appeared_exact,Transfermarkt + canonical
+2022-11-17,Portugal,Nigeria,International Friendly,H,0,,True,gastroenteritis,eligible_nonappearance,Transfermarkt + eligibility audit
+2022-11-24,Portugal,Ghana,World Cup,H,1,2022-11-24_Portugal_Ghana_1141,True,,appeared_exact,Transfermarkt + canonical
+2022-11-28,Portugal,Uruguay,World Cup,H,1,2022-11-28_Portugal_Uruguay_1142,True,,appeared_exact,Transfermarkt + canonical
+2022-12-02,Portugal,South Korea,World Cup,A,1,2022-12-02_Portugal_South_Korea_1143,True,,appeared_exact,Transfermarkt + canonical
+2022-12-06,Portugal,Switzerland,World Cup,H,1,2022-12-06_Portugal_Switzerland_1144,True,,appeared_exact,Transfermarkt + canonical
+2022-12-10,Portugal,Morocco,World Cup,A,1,2022-12-10_Portugal_Morocco_1145,True,,appeared_exact,Transfermarkt + canonical
+2023-03-23,Portugal,Liechtenstein,Euros Qualifier,H,1,2023-03-23_Portugal_Liechtenstein_1156,True,,appeared_exact,Transfermarkt + canonical
+2023-03-26,Portugal,Luxembourg,Euros Qualifier,A,1,2023-03-26_Portugal_Luxembourg_1157,True,,appeared_exact,Transfermarkt + canonical
+2023-06-17,Portugal,Bosnia & Herzegovina,Euros Qualifier,H,1,2023-06-17_Portugal_Bosnia_&_Herzegovina_1167,True,,appeared_exact,Transfermarkt + canonical
+2023-06-20,Portugal,Iceland,Euros Qualifier,A,1,2023-06-20_Portugal_Iceland_1168,True,,appeared_exact,Transfermarkt + canonical
+2023-09-08,Portugal,Slovakia,Euros Qualifier,A,1,2023-09-08_Portugal_Slovakia_1180,True,,appeared_exact,Transfermarkt + canonical
+2023-10-13,Portugal,Slovakia,Euros Qualifier,H,1,2023-10-13_Portugal_Slovakia_1187,True,,appeared_exact,Transfermarkt + canonical
+2023-10-16,Portugal,Bosnia & Herzegovina,Euros Qualifier,A,1,2023-10-16_Portugal_Bosnia_&_Herzegovina_1188,True,,appeared_exact,Transfermarkt + canonical
+2023-11-16,Portugal,Liechtenstein,Euros Qualifier,A,1,2023-11-16_Portugal_Liechtenstein_1195,True,,appeared_exact,Transfermarkt + canonical
+2023-11-19,Portugal,Iceland,Euros Qualifier,H,1,2023-11-19_Portugal_Iceland_1196,True,,appeared_exact,Transfermarkt + canonical
+2024-03-21,Portugal,Sweden,International Friendly,H,0,,True,planned rest / squad rotation,eligible_nonappearance,Transfermarkt + eligibility audit
+2024-03-26,Portugal,Slovenia,International Friendly,A,1,2024-03-26_Portugal_Slovenia_1213,True,,appeared_exact,Transfermarkt + canonical
+2024-06-04,Portugal,Finland,International Friendly,H,0,,True,rest after club season,eligible_nonappearance,Transfermarkt + eligibility audit
+2024-06-08,Portugal,Croatia,International Friendly,H,0,,True,unused substitute / coach decision,eligible_nonappearance,Transfermarkt + eligibility audit
+2024-06-11,Portugal,Republic of Ireland,International Friendly,H,1,2024-06-11_Portugal_Republic_of_Ireland_1226,True,,appeared_exact,Transfermarkt + canonical
+2024-06-18,Portugal,Czech Republic,Euro Championship,H,1,2024-06-18_Portugal_Czech_Republic_1227,True,,appeared_exact,Transfermarkt + canonical
+2024-06-22,Portugal,Türkiye,Euro Championship,A,1,2024-06-22_Portugal_Türkiye_1228,True,,appeared_exact,Transfermarkt + canonical
+2024-06-26,Portugal,Georgia,Euro Championship,A,1,2024-06-26_Portugal_Georgia_1229,True,,appeared_exact,Transfermarkt + canonical
+2024-07-01,Portugal,Slovenia,Euro Championship,H,1,2024-07-01_Portugal_Slovenia_1230,True,,appeared_exact,Transfermarkt + canonical
+2024-07-05,Portugal,France,Euro Championship,H,1,2024-07-05_Portugal_France_1231,True,,appeared_exact,Transfermarkt + canonical
+2024-09-05,Portugal,Croatia,UEFA Nations League,H,1,2024-09-05_Portugal_Croatia_1236,True,,appeared_exact,Transfermarkt + canonical
+2024-09-08,Portugal,Scotland,UEFA Nations League,H,1,2024-09-08_Portugal_Scotland_1237,True,,appeared_exact,Transfermarkt + canonical
+2024-10-12,Portugal,Poland,UEFA Nations League,A,1,2024-10-12_Portugal_Poland_1243,True,,appeared_exact,Transfermarkt + canonical
+2024-10-15,Portugal,Scotland,UEFA Nations League,A,1,2024-10-15_Portugal_Scotland_1244,True,,appeared_exact,Transfermarkt + canonical
+2024-11-15,Portugal,Poland,UEFA Nations League,H,1,2024-11-15_Portugal_Poland_1251,True,,appeared_exact,Transfermarkt + canonical
+2024-11-18,Portugal,Croatia,UEFA Nations League,A,0,,True,rested after group qualification,eligible_nonappearance,Transfermarkt + eligibility audit
+2025-03-20,Portugal,Denmark,UEFA Nations League,A,1,2025-03-20_Portugal_Denmark_1270,True,,appeared_exact,Transfermarkt + canonical
+2025-03-23,Portugal,Denmark,UEFA Nations League,H,1,2025-03-23_Portugal_Denmark_1271,True,,appeared_exact,Transfermarkt + canonical
+2025-06-04,Portugal,Germany,UEFA Nations League,A,1,2025-06-04_Portugal_Germany_1280,True,,appeared_exact,Transfermarkt + canonical
+2025-06-08,Portugal,Spain,UEFA Nations League,H,1,2025-06-08_Portugal_Spain_1281,True,,appeared_exact,Transfermarkt + canonical
+2025-09-06,Portugal,Armenia,World Cup - Qualification Europe,A,1,2025-09-06_Portugal_Armenia_1285,True,,appeared_exact,Transfermarkt + canonical
+2025-09-09,Portugal,Hungary,World Cup - Qualification Europe,A,1,2025-09-09_Portugal_Hungary_1286,True,,appeared_exact,Transfermarkt + canonical
+2025-10-11,Portugal,Republic of Ireland,World Cup - Qualification Europe,H,1,2025-10-11_Portugal_Republic_of_Ireland_1290,True,,appeared_exact,Transfermarkt + canonical
+2025-10-14,Portugal,Hungary,World Cup - Qualification Europe,H,1,2025-10-14_Portugal_Hungary_1291,True,,appeared_exact,Transfermarkt + canonical
+2025-11-13,Portugal,Republic of Ireland,World Cup - Qualification Europe,A,1,2025-11-13_Portugal_Republic_of_Ireland_1297,True,,appeared_exact,Transfermarkt + canonical
+2026-03-29,Portugal,Mexico,International Friendly,A,0,,True,hamstring injury,eligible_nonappearance,Transfermarkt + eligibility audit
+2026-04-01,Portugal,USA,International Friendly,A,0,,True,hamstring injury,eligible_nonappearance,Transfermarkt + eligibility audit
+2026-06-06,Portugal,Chile,International Friendly,H,1,2026-06-06_Portugal_Chile_1324,True,,appeared_exact,Transfermarkt + canonical
+2026-06-10,Portugal,Nigeria,International Friendly,H,1,2026-06-10_Portugal_Nigeria_1325,True,,appeared_exact,Transfermarkt + canonical
+2026-06-17,Portugal,Congo DR,World Cup,H,1,2026-06-17_Portugal_Congo_DR_1326,True,,appeared_exact,Transfermarkt + canonical
+2026-06-23,Portugal,Uzbekistan,World Cup,H,1,2026-06-23_Portugal_Uzbekistan_1327,True,,appeared_exact,Transfermarkt + canonical
+2026-06-27,Portugal,Colombia,World Cup,A,1,2026-06-27_Portugal_Colombia_1328,True,,appeared_date_reconciled,Transfermarkt + canonical
+2026-07-02,Portugal,Croatia,World Cup,H,1,2026-07-02_Portugal_Croatia_1329,True,,appeared_date_reconciled,Transfermarkt + canonical
+2026-07-06,Portugal,Spain,World Cup,H,1,2026-07-06_Portugal_Spain_1330,True,,appeared_exact,Transfermarkt + canonical

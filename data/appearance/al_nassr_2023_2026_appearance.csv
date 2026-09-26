@@ -1,0 +1,180 @@
+season,date,team,opponent,competition,venue,team_goals,opponent_goals,appeared,match_id,source_status,source
+2022-23,2023-01-22,Al-Nassr,Al-Ettifaq,Pro League,H,1,0,1,2023-01-22_Al-Nassr_Al-Ettifaq_1146,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-01-26,Al-Nassr,Al-Ittihad,Saudi Super Cup,A,1,3,1,2023-01-26_Al-Nassr_Al-Ittihad_FC_1147,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-02-03,Al-Nassr,Al-Fateh,Pro League,A,2,2,1,2023-02-03_Al-Nassr_Al-Fateh_1148,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-02-09,Al-Nassr,Al-Wehda,Pro League,A,4,0,1,2023-02-09_Al-Nassr_Al_Wehda_Club_1149,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-02-17,Al-Nassr,Al-Taawoun,Pro League,H,2,1,1,2023-02-17_Al-Nassr_Al_Taawon_1150,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-02-25,Al-Nassr,Damac FC,Pro League,A,3,0,1,2023-02-25_Al-Nassr_Dhamk_1151,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-03-03,Al-Nassr,Al-Batin,Pro League,H,3,1,1,2023-03-03_Al-Nassr_Al_Baten_1152,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-03-09,Al-Nassr,Al-Ittihad,Pro League,A,0,1,1,2023-03-09_Al-Nassr_Al-Ittihad_FC_1153,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-03-14,Al-Nassr,Abha,King Cup,H,3,1,1,2023-03-14_Al-Nassr_Abha_1154,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-03-18,Al-Nassr,Abha,Pro League,H,2,1,1,2023-03-18_Al-Nassr_Abha_1155,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-04-04,Al-Nassr,Al-Adalah,Pro League,A,5,0,1,2023-04-04_Al-Nassr_Al-Adalah_1158,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-04-09,Al-Nassr,Al-Fayha,Pro League,A,0,0,1,2023-04-09_Al-Nassr_Al-Fayha_1159,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-04-18,Al-Nassr,Al-Hilal,Pro League,A,0,2,1,2023-04-18_Al-Nassr_Al-Hilal_1160,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-04-24,Al-Nassr,Al-Wehda,King Cup,H,0,1,1,2023-04-24_Al-Nassr_Al_Wehda_Club_1161,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-04-28,Al-Nassr,Al-Raed,Pro League,H,4,0,1,2023-04-28_Al-Nassr_Al-Raed_1162,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-05-08,Al-Nassr,Al-Khaleej,Pro League,H,1,1,1,2023-05-08_Al-Nassr_Al_Khaleej_Saihat_1163,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-05-16,Al-Nassr,Al-Tai,Pro League,A,2,0,1,2023-05-16_Al-Nassr_Al_Taee_1164,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-05-23,Al-Nassr,Al-Shabab,Pro League,H,3,2,1,2023-05-23_Al-Nassr_Al_Shabab_1165,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-05-27,Al-Nassr,Al-Ettifaq,Pro League,A,1,1,1,2023-05-27_Al-Nassr_Al-Ettifaq_1166,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2022-23,2023-05-31,Al-Nassr,Al-Fateh,Pro League,H,3,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2022
+2023-24,2023-07-28,Al-Nassr,Al-Shabab,Arab Club Champions Cup,H,0,0,1,2023-07-28_Al-Nassr_Al_Shabab_1169,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-07-31,Al-Nassr,Union Monastirienne,Arab Club Champions Cup,A,4,1,1,2023-07-31_Al-Nassr_US_Monastirienne_1170,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-08-03,Al-Nassr,Zamalek,Arab Club Champions Cup,A,1,1,1,2023-08-03_Al-Nassr_Zamalek_SC_1171,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-08-06,Al-Nassr,Raja CA,Arab Club Champions Cup,A,3,1,1,2023-08-06_Al-Nassr_Raja_Casablanca_1172,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-08-09,Al-Nassr,Al-Shorta,Arab Club Champions Cup,A,1,0,1,2023-08-09_Al-Nassr_Al_Shorta_1173,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-08-12,Al-Nassr,Al-Hilal,Arab Club Champions Cup,A,2,1,1,2023-08-12_Al-Nassr_Al-Hilal_1174,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-08-14,Al-Nassr,Al-Ettifaq,Pro League,A,1,2,0,,eligible_nonappearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-08-18,Al-Nassr,Al-Taawoun,Pro League,H,0,2,1,2023-08-18_Al-Nassr_Al_Taawon_1175,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-08-22,Al-Nassr,Shabab Al-Ahli,AFC Champions League,H,4,2,1,2023-08-22_Al-Nassr_Shabab_Al_Ahli_Dubai_1176,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-08-25,Al-Nassr,Al-Fateh,Pro League,A,5,0,1,2023-08-25_Al-Nassr_Al-Fateh_1177,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-08-29,Al-Nassr,Al-Shabab,Pro League,H,4,0,1,2023-08-29_Al-Nassr_Al_Shabab_1178,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-09-02,Al-Nassr,Al-Hazem,Pro League,A,5,1,1,2023-09-02_Al-Nassr_Al-Hazm_1179,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-09-16,Al-Nassr,Al-Raed,Pro League,A,3,1,1,2023-09-16_Al-Nassr_Al-Raed_1181,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-09-19,Al-Nassr,Persepolis,AFC Champions League,A,2,0,1,2023-09-19_Al-Nassr_Persepolis_FC_1182,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-09-22,Al-Nassr,Al-Ahli,Pro League,H,4,3,1,2023-09-22_Al-Nassr_Al-Ahli_Jeddah_1183,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-09-25,Al-Nassr,Ohod,King Cup,A,5,1,0,,eligible_nonappearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-09-29,Al-Nassr,Al-Tai,Pro League,A,2,1,1,2023-09-29_Al-Nassr_Al_Taee_1184,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-10-02,Al-Nassr,Istiklol,AFC Champions League,H,3,1,1,2023-10-02_Al-Nassr_Istiqlol_1185,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-10-06,Al-Nassr,Abha,Pro League,H,2,2,1,2023-10-06_Al-Nassr_Abha_1186,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-10-21,Al-Nassr,Damac,Pro League,H,2,1,1,2023-10-21_Al-Nassr_Damac_1189,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-10-24,Al-Nassr,Al-Duhail,AFC Champions League,H,4,3,1,2023-10-24_Al-Nassr_Al-Duhail_SC_1190,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-10-28,Al-Nassr,Al-Fayha,Pro League,A,3,1,1,2023-10-28_Al-Nassr_Al-Fayha_1191,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-10-31,Al-Nassr,Al-Ettifaq,King Cup,H,1,0,1,2023-10-31_Al-Nassr_Al-Ettifaq_1192,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-11-04,Al-Nassr,Al-Khaleej,Pro League,H,2,0,1,2023-11-04_Al-Nassr_Al_Khaleej_Saihat_1193,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-11-07,Al-Nassr,Al-Duhail,AFC Champions League,A,3,2,0,,eligible_nonappearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-11-11,Al-Nassr,Al-Wehda,Pro League,A,3,1,1,2023-11-11_Al-Nassr_Al_Wehda_Club_1194,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-11-24,Al-Nassr,Al-Okhdood,Pro League,H,3,0,1,2023-11-24_Al-Nassr_Al_Okhdood_1197,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-11-27,Al-Nassr,Persepolis,AFC Champions League,H,0,0,1,2023-11-27_Al-Nassr_Persepolis_FC_1198,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-12-01,Al-Nassr,Al-Hilal,Pro League,A,0,3,1,2023-12-01_Al-Nassr_Al-Hilal_1199,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-12-05,Al-Nassr,Istiklol,AFC Champions League,A,1,1,0,,eligible_nonappearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-12-08,Al-Nassr,Al-Riyadh,Pro League,H,4,1,1,2023-12-08_Al-Nassr_Al_Riyadh_1200,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-12-11,Al-Nassr,Al-Shabab,King Cup,A,5,2,1,2023-12-11_Al-Nassr_Al_Shabab_1201,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-12-22,Al-Nassr,Al-Ettifaq,Pro League,H,3,1,1,2023-12-22_Al-Nassr_Al-Ettifaq_1202,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-12-26,Al-Nassr,Al-Ittihad,Pro League,A,5,2,1,2023-12-26_Al-Nassr_Al-Ittihad_FC_1203,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2023-12-30,Al-Nassr,Al-Taawoun,Pro League,A,4,1,1,2023-12-30_Al-Nassr_Al_Taawon_1204,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-02-14,Al-Nassr,Al-Fayha,AFC Champions League,A,1,0,1,2024-02-14_Al-Nassr_Al-Fayha_1205,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-02-17,Al-Nassr,Al-Fateh,Pro League,H,2,1,1,2024-02-17_Al-Nassr_Al-Fateh_1206,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-02-21,Al-Nassr,Al-Fayha,AFC Champions League,H,2,0,1,2024-02-21_Al-Nassr_Al-Fayha_1207,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-02-25,Al-Nassr,Al-Shabab,Pro League,A,3,2,1,2024-02-25_Al-Nassr_Al_Shabab_1208,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-03-04,Al-Nassr,Al-Ain,AFC Champions League,A,0,1,1,2024-03-04_Al-Nassr_Al_Ain_1209,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-03-07,Al-Nassr,Al-Raed,Pro League,H,1,3,1,2024-03-07_Al-Nassr_Al-Raed_1210,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-03-11,Al-Nassr,Al-Ain,AFC Champions League,H,4,3,1,2024-03-11_Al-Nassr_Al_Ain_1211,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-03-15,Al-Nassr,Al-Ahli,Pro League,A,1,0,1,2024-03-15_Al-Nassr_Al-Ahli_Jeddah_1212,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-03-30,Al-Nassr,Al-Tai,Pro League,H,5,1,1,2024-03-30_Al-Nassr_Al_Taee_1214,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-04-02,Al-Nassr,Abha,Pro League,A,8,0,1,2024-04-02_Al-Nassr_Abha_1215,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-04-05,Al-Nassr,Damac,Pro League,A,1,0,1,2024-04-05_Al-Nassr_Damac_1216,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-04-08,Al-Nassr,Al-Hilal,Saudi Super Cup,A,1,2,1,2024-04-08_Al-Nassr_Al-Hilal_1217,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-04-27,Al-Nassr,Al-Khaleej,Pro League,A,1,0,1,2024-04-27_Al-Nassr_Al_Khaleej_Saihat_1218,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-05-01,Al-Nassr,Al-Khaleej,King Cup,H,3,1,1,2024-05-01_Al-Nassr_Al_Khaleej_Saihat_1219,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-05-04,Al-Nassr,Al-Wehda,Pro League,H,6,0,1,2024-05-04_Al-Nassr_Al_Wehda_Club_1220,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-05-09,Al-Nassr,Al-Okhdood,Pro League,A,3,2,1,2024-05-09_Al-Nassr_Al_Okhdood_1221,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-05-17,Al-Nassr,Al-Hilal,Pro League,H,1,1,1,2024-05-17_Al-Nassr_Al-Hilal_1222,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-05-23,Al-Nassr,Al-Riyadh,Pro League,A,2,2,1,2024-05-23_Al-Nassr_Al_Riyadh_1223,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-05-27,Al-Nassr,Al-Ittihad,Pro League,H,4,2,1,2024-05-27_Al-Nassr_Al-Ittihad_FC_1224,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2023-24,2024-05-31,Al-Nassr,Al-Hilal,King Cup,A,1,1,1,2024-05-31_Al-Nassr_Al-Hilal_1225,canonical_appearance,https://en.wikipedia.org/wiki/2023%E2%80%9324_Al_Nassr_FC_season
+2024-25,2024-08-14,Al-Nassr,Al-Taawoun,Saudi Super Cup,A,2,0,1,2024-08-14_Al-Nassr_Al_Taawon_1232,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-08-17,Al-Nassr,Al-Hilal,Saudi Super Cup,A,1,4,1,2024-08-17_Al-Nassr_Al-Hilal_1233,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-08-22,Al-Nassr,Al-Raed,Pro League,H,1,1,1,2024-08-22_Al-Nassr_Al-Raed_1234,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-08-27,Al-Nassr,Al-Fayha,Pro League,A,4,1,1,2024-08-27_Al-Nassr_Al-Fayha_1235,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-09-13,Al-Nassr,Al-Ahli,Pro League,H,1,1,1,2024-09-13_Al-Nassr_Al-Ahli_Jeddah_1238,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-09-16,Al-Nassr,Al-Shorta,AFC Champions League Elite,A,1,1,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-09-20,Al-Nassr,Al-Ettifaq,Pro League,A,3,0,1,2024-09-20_Al-Nassr_Al-Ettifaq_1239,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-09-23,Al-Nassr,Al-Hazem,King Cup,A,2,1,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-09-27,Al-Nassr,Al-Wehda,Pro League,H,2,0,1,2024-09-27_Al-Nassr_Al_Wehda_Club_1240,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-09-30,Al-Nassr,Al-Rayyan,AFC Champions League Elite,H,2,1,1,2024-09-30_Al-Nassr_Al-Rayyan_SC_1241,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-10-05,Al-Nassr,Al-Orobah,Pro League,H,3,0,1,2024-10-05_Al-Nassr_Al_Orubah_1242,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-10-18,Al-Nassr,Al-Shabab,Pro League,A,2,1,1,2024-10-18_Al-Nassr_Al_Shabab_1245,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-10-22,Al-Nassr,Esteghlal FC,AFC Champions League Elite,A,1,0,1,2024-10-22_Al-Nassr_Esteghlal_FC_1246,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-10-25,Al-Nassr,Al-Kholood,Pro League,A,3,3,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-10-29,Al-Nassr,Al-Taawoun,King Cup,H,0,1,1,2024-10-29_Al-Nassr_Al_Taawon_1247,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-11-01,Al-Nassr,Al-Hilal,Pro League,H,1,1,1,2024-11-01_Al-Nassr_Al-Hilal_1248,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-11-05,Al-Nassr,Al-Ain,AFC Champions League Elite,H,5,1,1,2024-11-05_Al-Nassr_Al_Ain_1249,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-11-08,Al-Nassr,Al-Riyadh,Pro League,A,1,0,1,2024-11-08_Al-Nassr_Al_Riyadh_1250,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-11-22,Al-Nassr,Al-Qadsiah,Pro League,H,1,2,1,2024-11-22_Al-Nassr_Al-Qadisiyah_FC_1252,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-11-25,Al-Nassr,Al-Gharafa,AFC Champions League Elite,A,3,1,1,2024-11-25_Al-Nassr_Al-Gharafa_1253,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-11-29,Al-Nassr,Damac FC,Pro League,H,2,0,1,2024-11-29_Al-Nassr_Damac_1254,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-12-02,Al-Nassr,Al-Sadd,AFC Champions League Elite,H,1,2,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2024-12-06,Al-Nassr,Al-Ittihad,Pro League,A,1,2,1,2024-12-06_Al-Nassr_Al-Ittihad_FC_1255,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-01-09,Al-Nassr,Al-Okhdood,Pro League,H,3,1,1,2025-01-09_Al-Nassr_Al_Okhdood_1256,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-01-17,Al-Nassr,Al-Taawoun,Pro League,A,1,1,1,2025-01-17_Al-Nassr_Al_Taawon_1257,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-01-21,Al-Nassr,Al-Khaleej,Pro League,A,3,1,1,2025-01-21_Al-Nassr_Al_Khaleej_Saihat_1258,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-01-26,Al-Nassr,Al-Fateh,Pro League,H,3,1,1,2025-01-26_Al-Nassr_Al-Fateh_1259,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-01-30,Al-Nassr,Al-Raed,Pro League,A,2,1,1,2025-01-30_Al-Nassr_Al-Raed_1260,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-02-03,Al-Nassr,Al-Wasl,AFC Champions League Elite,H,4,0,1,2025-02-03_Al-Nassr_Al-Wasl_FC_1261,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-02-07,Al-Nassr,Al-Fayha,Pro League,H,3,0,1,2025-02-07_Al-Nassr_Al-Fayha_1262,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-02-13,Al-Nassr,Al-Ahli,Pro League,A,3,2,1,2025-02-13_Al-Nassr_Al-Ahli_Jeddah_1263,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-02-17,Al-Nassr,Persepolis FC,AFC Champions League Elite,A,0,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-02-21,Al-Nassr,Al-Ettifaq,Pro League,H,2,3,1,2025-02-21_Al-Nassr_Al-Ettifaq_1264,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-02-25,Al-Nassr,Al-Wehda,Pro League,A,2,0,1,2025-02-25_Al-Nassr_Al_Wehda_Club_1265,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-02-28,Al-Nassr,Al-Orobah,Pro League,A,3,0,1,2025-02-28_Al-Nassr_Al_Orubah_1266,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-03-03,Al-Nassr,Esteghlal FC,AFC Champions League Elite,A,0,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-03-07,Al-Nassr,Al-Shabab,Pro League,H,2,2,1,2025-03-07_Al-Nassr_Al_Shabab_1267,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-03-10,Al-Nassr,Esteghlal FC,AFC Champions League Elite,H,3,0,1,2025-03-10_Al-Nassr_Esteghlal_FC_1268,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-03-14,Al-Nassr,Al-Kholood,Pro League,H,3,1,1,2025-03-14_Al-Nassr_Al_Kholood_1269,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-04-04,Al-Nassr,Al-Hilal,Pro League,A,3,1,1,2025-04-04_Al-Nassr_Al-Hilal_1272,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-04-12,Al-Nassr,Al-Riyadh,Pro League,H,2,1,1,2025-04-12_Al-Nassr_Al_Riyadh_1273,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-04-18,Al-Nassr,Al-Qadsiah,Pro League,A,1,2,1,2025-04-18_Al-Nassr_Al-Qadisiyah_FC_1274,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-04-22,Al-Nassr,Damac FC,Pro League,A,3,2,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-04-26,Al-Nassr,Yokohama F. M.,AFC Champions League Elite,A,4,1,1,2025-04-26_Al-Nassr_Yokohama_F._Marinos_1275,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-04-30,Al-Nassr,Kawasaki Front.,AFC Champions League Elite,H,2,3,1,2025-04-30_Al-Nassr_Kawasaki_Frontale_1276,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-05-07,Al-Nassr,Al-Ittihad,Pro League,H,2,3,1,2025-05-07_Al-Nassr_Al-Ittihad_FC_1277,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-05-12,Al-Nassr,Al-Okhdood,Pro League,A,9,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-05-16,Al-Nassr,Al-Taawoun,Pro League,H,1,1,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-05-21,Al-Nassr,Al-Khaleej,Pro League,H,2,0,1,2025-05-21_Al-Nassr_Al_Khaleej_Saihat_1278,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2024-25,2025-05-26,Al-Nassr,Al-Fateh,Pro League,A,2,3,1,2025-05-26_Al-Nassr_Al-Fateh_1279,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2024
+2025-26,2025-08-19,Al-Nassr,Al-Ittihad,Saudi Super Cup,A,2,1,1,2025-08-19_Al-Nassr_Al-Ittihad_FC_1282,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-08-23,Al-Nassr,Al-Ahli,Saudi Super Cup,H,5,7,1,2025-08-23_Al-Nassr_Al-Ahli_Jeddah_1283,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-08-29,Al-Nassr,Al-Taawoun,Pro League,A,5,0,1,2025-08-29_Al-Nassr_Al_Taawon_1284,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-09-14,Al-Nassr,Al-Kholood,Pro League,H,2,0,1,2025-09-14_Al-Nassr_Al_Kholood_1287,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-09-17,Al-Nassr,Istiqlol,AFC Champions League Two,H,5,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-09-20,Al-Nassr,Al-Riyadh,Pro League,H,5,1,1,2025-09-20_Al-Nassr_Al_Riyadh_1288,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-09-23,Al-Nassr,Jeddah SC,King Cup,A,4,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-09-26,Al-Nassr,Al-Ittihad,Pro League,A,2,0,1,2025-09-26_Al-Nassr_Al-Ittihad_FC_1289,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-10-01,Al-Nassr,Al-Zawraa SC,AFC Champions League Two,A,2,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-10-18,Al-Nassr,Al-Fateh,Pro League,H,5,1,1,2025-10-18_Al-Nassr_Al-Fateh_1292,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-10-22,Al-Nassr,FC Goa,AFC Champions League Two,A,2,1,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-10-25,Al-Nassr,Al-Hazem,Pro League,A,2,0,1,2025-10-25_Al-Nassr_Al-Hazm_1293,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-10-28,Al-Nassr,Al-Ittihad,King Cup,H,1,2,1,2025-10-28_Al-Nassr_Al-Ittihad_FC_1294,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-11-01,Al-Nassr,Al-Fayha,Pro League,H,2,1,1,2025-11-01_Al-Nassr_Al-Fayha_1295,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-11-05,Al-Nassr,FC Goa,AFC Champions League Two,H,4,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-11-08,Al-Nassr,NEOM SC,Pro League,A,3,1,1,2025-11-08_Al-Nassr_NEOM_1296,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-11-23,Al-Nassr,Al-Khaleej,Pro League,H,4,1,1,2025-11-23_Al-Nassr_Al_Khaleej_Saihat_1298,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-11-26,Al-Nassr,Istiqlol,AFC Champions League Two,A,4,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-12-24,Al-Nassr,Al-Zawraa SC,AFC Champions League Two,H,5,1,1,2025-12-24_Al-Nassr_Al_Zawra'a_1299,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-12-27,Al-Nassr,Al-Okhdood,Pro League,H,3,0,1,2025-12-27_Al-Nassr_Al_Okhdood_1300,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2025-12-30,Al-Nassr,Al-Ettifaq,Pro League,A,2,2,1,2025-12-30_Al-Nassr_Al-Ettifaq_1301,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-01-02,Al-Nassr,Al-Ahli,Pro League,A,2,3,1,2026-01-02_Al-Nassr_Al-Ahli_Jeddah_1302,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-01-08,Al-Nassr,Al-Qadsiah,Pro League,H,1,2,1,2026-01-08_Al-Nassr_Al-Qadisiyah_FC_1303,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-01-12,Al-Nassr,Al-Hilal,Pro League,A,1,3,1,2026-01-12_Al-Nassr_Al-Hilal_1304,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-01-17,Al-Nassr,Al-Shabab,Pro League,H,3,2,1,2026-01-17_Al-Nassr_Al_Shabab_1305,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-01-21,Al-Nassr,Damac FC,Pro League,A,2,1,1,2026-01-21_Al-Nassr_Damac_1306,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-01-26,Al-Nassr,Al-Taawoun,Pro League,H,1,0,1,2026-01-26_Al-Nassr_Al_Taawon_1307,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-01-30,Al-Nassr,Al-Kholood,Pro League,A,3,0,1,2026-01-30_Al-Nassr_Al_Kholood_1308,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-02-02,Al-Nassr,Al-Riyadh,Pro League,A,1,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-02-06,Al-Nassr,Al-Ittihad,Pro League,H,2,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-02-11,Al-Nassr,FK Arkadag,AFC Champions League Two,A,1,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-02-14,Al-Nassr,Al-Fateh,Pro League,A,2,0,1,2026-02-14_Al-Nassr_Al-Fateh_1309,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-02-18,Al-Nassr,FK Arkadag,AFC Champions League Two,H,1,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-02-21,Al-Nassr,Al-Hazem,Pro League,H,4,0,1,2026-02-21_Al-Nassr_Al-Hazm_1310,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-02-25,Al-Nassr,Al-Najma,Pro League,A,5,0,1,2026-02-25_Al-Nassr_Al_Najma_1311,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-02-28,Al-Nassr,Al-Fayha,Pro League,A,3,1,1,2026-02-28_Al-Nassr_Al-Fayha_1312,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-03-07,Al-Nassr,NEOM SC,Pro League,H,1,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-03-14,Al-Nassr,Al-Khaleej,Pro League,A,5,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-04-03,Al-Nassr,Al-Najma,Pro League,H,5,2,1,2026-04-03_Al-Nassr_Al_Najma_1313,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-04-11,Al-Nassr,Al-Okhdood,Pro League,A,2,0,1,2026-04-11_Al-Nassr_Al_Okhdood_1314,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-04-15,Al-Nassr,Al-Ettifaq,Pro League,H,1,0,1,2026-04-15_Al-Nassr_Al-Ettifaq_1315,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-04-19,Al-Nassr,Al-Wasl,AFC Champions League Two,A,4,0,1,2026-04-19_Al-Nassr_Al-Wasl_FC_1316,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-04-22,Al-Nassr,Al-Ahli SC,AFC Champions League Two,H,5,1,1,2026-04-22_Al-Nassr_Al_Ahli_Doha_1317,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-04-29,Al-Nassr,Al-Ahli,Pro League,H,2,0,1,2026-04-29_Al-Nassr_Al-Ahli_Jeddah_1318,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-05-03,Al-Nassr,Al-Qadsiah,Pro League,A,1,3,1,2026-05-03_Al-Nassr_Al-Qadisiyah_FC_1319,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-05-07,Al-Nassr,Al-Shabab,Pro League,A,4,2,1,2026-05-07_Al-Nassr_Al_Shabab_1320,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-05-12,Al-Nassr,Al-Hilal,Pro League,H,1,1,1,2026-05-12_Al-Nassr_Al-Hilal_1321,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-05-16,Al-Nassr,Gamba Osaka,AFC Champions League Two,H,0,1,1,2026-05-16_Al-Nassr_Gamba_Osaka_1322,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2025-26,2026-05-21,Al-Nassr,Damac FC,Pro League,H,4,1,1,2026-05-21_Al-Nassr_Damac_1323,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2025
+2026-27,2026-08-15,Al-Nassr,Al-Fateh,Pro League,H,3,0,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2026
+2026-27,2026-08-18,Al-Nassr,Al-Diriyah,King Cup,A,4,1,0,,eligible_nonappearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2026
+2026-27,2026-08-21,Al-Nassr,Al-Riyadh,Pro League,A,4,0,1,2026-08-21_Al-Nassr_Al_Riyadh_1331,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2026
+2026-27,2026-08-25,Al-Nassr,Al-Ettifaq,Pro League,A,3,2,1,2026-08-25_Al-Nassr_Al-Ettifaq_1332,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2026
+2026-27,2026-08-28,Al-Nassr,Al-Taawoun,Pro League,H,2,1,1,2026-08-28_Al-Nassr_Al_Taawon_1333,canonical_appearance,https://www.transfermarkt.com/al-nassr-fc/spielplan/verein/18544/saison_id/2026

@@ -1,0 +1,73 @@
+{
+  "model_name": "catboost_historical_rate_blend",
+  "target": "appeared",
+  "training_cutoff": "2024-12-31",
+  "final_test_start": "2025-01-01",
+  "historical_data_cutoff": "2026-08-28",
+  "features": [
+    "appeared_previous_pre",
+    "appearance_rate_last_5_pre",
+    "appearance_rate_last_10_pre",
+    "consecutive_appearances_pre",
+    "days_since_last_fixture_pre",
+    "fixtures_last_7_days_pre",
+    "fixtures_last_14_days_pre",
+    "age_years_pre",
+    "is_national_team",
+    "fixture_month",
+    "team_appeared_previous_pre",
+    "team_appearance_rate_last_5_pre",
+    "team",
+    "competition",
+    "venue"
+  ],
+  "numeric_features": [
+    "appeared_previous_pre",
+    "appearance_rate_last_5_pre",
+    "appearance_rate_last_10_pre",
+    "consecutive_appearances_pre",
+    "days_since_last_fixture_pre",
+    "fixtures_last_7_days_pre",
+    "fixtures_last_14_days_pre",
+    "age_years_pre",
+    "is_national_team",
+    "fixture_month",
+    "team_appeared_previous_pre",
+    "team_appearance_rate_last_5_pre"
+  ],
+  "categorical_features": [
+    "team",
+    "competition",
+    "venue"
+  ],
+  "catboost": {
+    "loss_function": "Logloss",
+    "iterations": 250,
+    "depth": 3,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 10,
+    "random_seed": 42
+  },
+  "blend": {
+    "catboost_weight": 0.5,
+    "historical_rate_weight": 0.5
+  },
+  "selection_metric": "Brier score",
+  "development_oof": {
+    "rows": 513,
+    "brier": 0.134174,
+    "log_loss": 0.437879,
+    "roc_auc": 0.573
+  },
+  "final_test": {
+    "rows": 99,
+    "appearances": 78,
+    "nonappearances": 21,
+    "actual_rate": 0.7879,
+    "predicted_rate": 0.8468,
+    "brier": 0.161531,
+    "log_loss": 0.498748,
+    "roc_auc": 0.6941
+  },
+  "calibration_note": "The locked model overpredicted the overall appearance rate during the 2025-2026 final test period. The final test was used for evaluation only and no post-test recalibration or model selection was performed."
+}

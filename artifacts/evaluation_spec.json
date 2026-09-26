@@ -1,0 +1,76 @@
+{
+  "phase": "Phase 8 - Model Evaluation",
+  "final_test": {
+    "start": "2025-01-09",
+    "end": "2026-08-28",
+    "matches": 78,
+    "actual_goals": 62,
+    "actual_gpg": 0.7948717948717948,
+    "models": {
+      "catboost": {
+        "poisson_deviance": 0.7948831643104144,
+        "mae": 0.5460988809877529,
+        "rmse": 0.6855699381627517,
+        "actual_mean": 0.7948717948717948,
+        "predicted_mean": 0.866915449550124,
+        "mean_bias": 0.07204365467832918
+      },
+      "ensemble": {
+        "poisson_deviance": 0.8032216902906445,
+        "mae": 0.5752200219655056,
+        "rmse": 0.6910286983170602,
+        "actual_mean": 0.7948717948717948,
+        "predicted_mean": 0.8060611637939196,
+        "mean_bias": 0.011189368922124743
+      },
+      "xgboost": {
+        "poisson_deviance": 0.8176815488413659,
+        "mae": 0.5946341233375745,
+        "rmse": 0.6994967507643511,
+        "actual_mean": 0.7948717948717948,
+        "predicted_mean": 0.7654915452003479,
+        "mean_bias": -0.029380249671446923
+      }
+    }
+  },
+  "selected_model": {
+    "name": "60% XGBoost + 40% CatBoost ensemble",
+    "selection_source": "pre-2025 temporal validation",
+    "changed_after_final_test": false,
+    "final_test_poisson_deviance": 0.8032216902906445,
+    "final_test_mae": 0.5752200219655056,
+    "final_test_rmse": 0.6910286983170602,
+    "final_test_mean_bias": 0.011189368922124743
+  },
+  "probability_evaluation": {
+    "final_test_scored_brier": 0.23405115668179433,
+    "final_test_scored_logloss": 0.6610252427847034,
+    "final_test_scored_auc": 0.6523574947220268,
+    "final_test_scored_actual_rate": 0.6282051282051282,
+    "final_test_scored_predicted_rate": 0.5526782484181993,
+    "final_test_multi_brier": 0.1367400246962469,
+    "final_test_multi_logloss": 0.44340210856827755,
+    "final_test_multi_auc": 0.6840236686390533,
+    "final_test_multi_actual_rate": 0.16666666666666666,
+    "final_test_multi_predicted_rate": 0.19354035127120253
+  },
+  "distribution_evaluation": {
+    "oof_pearson_dispersion": 0.9791498444300538,
+    "final_test_raw_dispersion": 0.6244830438378827,
+    "final_test_mean_absolute_bucket_gap": 0.049664837152135426,
+    "simulation_distribution": "Poisson",
+    "distribution_decision": "Retain Poisson as the primary simulation distribution.",
+    "decision_basis": [
+      "Overall OOF conditional Pearson dispersion was approximately 1.",
+      "2021-2024 OOF conditional dispersion was approximately 1.",
+      "Recent underdispersion was not stable across pre-test validation periods.",
+      "The 2025-2026 final test was strongly underdispersed, but was not used to retune the simulation distribution."
+    ]
+  },
+  "limitations": [
+    "Individual-match discrimination is moderate despite strong aggregate expected-goal calibration.",
+    "The model can miss abrupt scoring-regime changes, as seen across temporal folds.",
+    "The final-test goal-count distribution was substantially more underdispersed than Poisson.",
+    "Future milestone forecasts should report uncertainty rather than a single certain 1000th-goal date."
+  ]
+}

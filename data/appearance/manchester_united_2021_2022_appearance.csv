@@ -1,0 +1,68 @@
+season,date,team,opponent,competition,venue,raw_result,appeared,canonical_match_id,eligibility_status,source
+2021-22,2021-09-11,Manchester United,Newcastle United,Premier League,H,4–1,1,2021-09-11_Manchester_United_Newcastle_United_1076,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-09-14,Manchester United,Young Boys,Champions League,A,1–2,1,2021-09-14_Manchester_United_BSC_Young_Boys_1077,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-09-19,Manchester United,West Ham United,Premier League,A,2–1,1,2021-09-19_Manchester_United_West_Ham_United_1078,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-09-22,Manchester United,West Ham United,League Cup,H,0–1,0,,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-09-25,Manchester United,Aston Villa,Premier League,H,0–1,1,2021-09-25_Manchester_United_Aston_Villa_1079,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-09-29,Manchester United,Villarreal,Champions League,H,2–1,1,2021-09-29_Manchester_United_Villarreal_1080,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-10-02,Manchester United,Everton,Premier League,H,1–1,1,2021-10-02_Manchester_United_Everton_1081,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-10-16,Manchester United,Leicester City,Premier League,A,2–4,1,2021-10-16_Manchester_United_Leicester_City_1084,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-10-20,Manchester United,Atalanta,Champions League,H,3–2,1,2021-10-20_Manchester_United_Atalanta_1085,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-10-24,Manchester United,Liverpool,Premier League,H,0–5,1,2021-10-24_Manchester_United_Liverpool_1086,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-10-30,Manchester United,Tottenham Hotspur,Premier League,A,3–0,1,2021-10-30_Manchester_United_Tottenham_Hotspur_1087,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-11-02,Manchester United,Atalanta,Champions League,A,2–2,1,2021-11-02_Manchester_United_Atalanta_1088,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-11-06,Manchester United,Manchester City,Premier League,H,0–2,1,2021-11-06_Manchester_United_Manchester_City_1089,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-11-20,Manchester United,Watford,Premier League,A,1–4,1,2021-11-20_Manchester_United_Watford_1092,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-11-23,Manchester United,Villarreal,Champions League,A,2–0,1,2021-11-23_Manchester_United_Villarreal_1093,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-11-28,Manchester United,Chelsea,Premier League,A,1–1,1,2021-11-28_Manchester_United_Chelsea_1094,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-12-02,Manchester United,Arsenal,Premier League,H,3–2,1,2021-12-02_Manchester_United_Arsenal_1095,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-12-05,Manchester United,Crystal Palace,Premier League,H,1–0,1,2021-12-05_Manchester_United_Crystal_Palace_1096,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-12-08,Manchester United,Young Boys,Champions League,H,1–1,0,,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-12-11,Manchester United,Norwich City,Premier League,A,1–0,1,2021-12-11_Manchester_United_Norwich_City_1097,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-12-27,Manchester United,Newcastle United,Premier League,A,1–1,1,2021-12-27_Manchester_United_Newcastle_United_1098,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2021-12-30,Manchester United,Burnley,Premier League,H,3–1,1,2021-12-30_Manchester_United_Burnley_1099,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-01-03,Manchester United,Wolverhampton Wanderers,Premier League,H,0–1,1,2022-01-03_Manchester_United_Wolverhampton_Wanderers_1100,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-01-10,Manchester United,Aston Villa,FA Cup,H,1–0,0,,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-01-15,Manchester United,Aston Villa,Premier League,A,2–2,0,,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-01-19,Manchester United,Brentford,Premier League,A,3–1,1,2022-01-19_Manchester_United_Brentford_1101,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-01-22,Manchester United,West Ham United,Premier League,H,1–0,1,2022-01-22_Manchester_United_West_Ham_United_1102,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-02-04,Manchester United,Middlesbrough,FA Cup,H,1–1 ( a.e.t. ) (7–8 p ),1,2022-02-04_Manchester_United_Middlesbrough_1103,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-02-08,Manchester United,Burnley,Premier League,A,1–1,1,2022-02-08_Manchester_United_Burnley_1104,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-02-12,Manchester United,Southampton,Premier League,H,1–1,1,2022-02-12_Manchester_United_Southampton_1105,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-02-15,Manchester United,Brighton & Hove Albion,Premier League,H,2–0,1,2022-02-15_Manchester_United_Brighton_1106,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-02-20,Manchester United,Leeds United,Premier League,A,4–2,1,2022-02-20_Manchester_United_Leeds_United_1107,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-02-23,Manchester United,Atletico Madrid,Champions League,A,1–1,1,2022-02-23_Manchester_United_Atletico_Madrid_1108,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-02-26,Manchester United,Watford,Premier League,H,0–0,1,2022-02-26_Manchester_United_Watford_1109,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-03-06,Manchester United,Manchester City,Premier League,A,1–4,0,,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-03-12,Manchester United,Tottenham Hotspur,Premier League,H,3–2,1,2022-03-12_Manchester_United_Tottenham_Hotspur_1110,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-03-15,Manchester United,Atletico Madrid,Champions League,H,0–1,1,2022-03-15_Manchester_United_Atletico_Madrid_1111,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-04-02,Manchester United,Leicester City,Premier League,H,1–1,0,,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-04-09,Manchester United,Everton,Premier League,A,0–1,1,2022-04-09_Manchester_United_Everton_1114,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-04-16,Manchester United,Norwich City,Premier League,H,3–2,1,2022-04-16_Manchester_United_Norwich_City_1115,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-04-19,Manchester United,Liverpool,Premier League,A,0–4,0,,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-04-23,Manchester United,Arsenal,Premier League,A,1–3,1,2022-04-23_Manchester_United_Arsenal_1116,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-04-28,Manchester United,Chelsea,Premier League,H,1–1,1,2022-04-28_Manchester_United_Chelsea_1117,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-05-02,Manchester United,Brentford,Premier League,H,3–0,1,2022-05-02_Manchester_United_Brentford_1118,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-05-07,Manchester United,Brighton & Hove Albion,Premier League,A,0–4,1,2022-05-07_Manchester_United_Brighton_1119,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2021-22,2022-05-22,Manchester United,Crystal Palace,Premier League,A,0–1,0,,eligible,https://en.wikipedia.org/wiki/2021%E2%80%9322_Manchester_United_F.C._season
+2022-23,2022-08-07,Manchester United,Brighton & Hove Albion,Premier League,H,1–2,1,2022-08-07_Manchester_United_Brighton_1123,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-08-13,Manchester United,Brentford,Premier League,A,0–4,1,2022-08-13_Manchester_United_Brentford_1124,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-08-22,Manchester United,Liverpool,Premier League,H,2–1,1,2022-08-22_Manchester_United_Liverpool_1125,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-08-27,Manchester United,Southampton,Premier League,A,1–0,1,2022-08-27_Manchester_United_Southampton_1126,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-09-01,Manchester United,Leicester City,Premier League,A,1–0,1,2022-09-01_Manchester_United_Leicester_City_1127,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-09-04,Manchester United,Arsenal,Premier League,H,3–1,1,2022-09-04_Manchester_United_Arsenal_1128,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-09-08,Manchester United,Real Sociedad,Europa League,H,0–1,1,2022-09-08_Manchester_United_Real_Sociedad_1129,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-09-15,Manchester United,Sheriff Tiraspol,Europa League,A,2–0,1,2022-09-15_Manchester_United_Sheriff_Tiraspol_1130,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-10-02,Manchester United,Manchester City,Premier League,A,3–6,0,,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-10-06,Manchester United,Omonia,Europa League,A,3–2,1,2022-10-06_Manchester_United_Omonia_Nicosia_1133,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-10-09,Manchester United,Everton,Premier League,A,2–1,1,2022-10-09_Manchester_United_Everton_1134,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-10-13,Manchester United,Omonia,Europa League,H,1–0,1,2022-10-13_Manchester_United_Omonia_Nicosia_1135,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-10-16,Manchester United,Newcastle United,Premier League,H,0–0,1,2022-10-16_Manchester_United_Newcastle_United_1136,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-10-19,Manchester United,Tottenham Hotspur,Premier League,H,2–0,0,,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-10-22,Manchester United,Chelsea,Premier League,A,1–1,0,,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-10-27,Manchester United,Sheriff Tiraspol,Europa League,H,3–0,1,2022-10-27_Manchester_United_Sheriff_Tiraspol_1137,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-10-30,Manchester United,West Ham United,Premier League,H,1–0,1,2022-10-30_Manchester_United_West_Ham_United_1138,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-11-03,Manchester United,Real Sociedad,Europa League,A,1–0,1,2022-11-03_Manchester_United_Real_Sociedad_1139,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-11-06,Manchester United,Aston Villa,Premier League,A,1–3,1,2022-11-06_Manchester_United_Aston_Villa_1140,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-11-10,Manchester United,Aston Villa,League Cup,H,4–2,0,,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season
+2022-23,2022-11-13,Manchester United,Fulham,Premier League,A,2–1,0,,eligible,https://en.wikipedia.org/wiki/2022%E2%80%9323_Manchester_United_F.C._season

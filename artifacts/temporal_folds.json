@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Fold 1",
+    "train_start": "2002-08-14",
+    "train_end": "2018-06-30",
+    "validation_start": "2018-08-18",
+    "validation_end": "2021-06-27",
+    "train_matches": 915,
+    "validation_matches": 158
+  },
+  {
+    "name": "Fold 2",
+    "train_start": "2002-08-14",
+    "train_end": "2021-06-27",
+    "validation_start": "2021-08-22",
+    "validation_end": "2022-12-10",
+    "train_matches": 1073,
+    "validation_matches": 72
+  },
+  {
+    "name": "Fold 3",
+    "train_start": "2002-08-14",
+    "train_end": "2022-12-10",
+    "validation_start": "2023-01-22",
+    "validation_end": "2023-12-30",
+    "train_matches": 1145,
+    "validation_matches": 59
+  },
+  {
+    "name": "Fold 4",
+    "train_start": "2002-08-14",
+    "train_end": "2023-12-30",
+    "validation_start": "2024-02-14",
+    "validation_end": "2024-12-06",
+    "train_matches": 1204,
+    "validation_matches": 51
+  }
+]

@@ -1,0 +1,4 @@
+scenario,unfinished_paths,mean_goals_remaining,median_goals_remaining,min_goals_remaining,max_goals_remaining,mean_appearances
+Conservative,122,3.139344262295082,2.0,1,13,31.92622950819672
+Baseline,58,2.8620689655172415,2.5,1,9,34.172413793103445
+Optimistic,36,2.25,2.0,1,5,37.75

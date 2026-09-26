@@ -1,0 +1,92 @@
+{
+  "phase": "Phase 6 \u2014 Baseline Models",
+  "selection_metric": "macro_poisson_deviance",
+  "selected_statistical_baseline": {
+    "model": "PoissonRegressor",
+    "feature_set": "no_season",
+    "alpha": 50.0,
+    "max_iter": 3000,
+    "macro_metrics": {
+      "poisson_deviance": 1.1139780281141487,
+      "mae": 0.7139660472377689,
+      "rmse": 0.8713981797577175,
+      "mean_bias": -0.011345702267706675
+    },
+    "pooled_metrics": {
+      "poisson_deviance": 1.1048808087154376,
+      "mae": 0.7094641107331231,
+      "rmse": 0.8654637045485207,
+      "actual_mean_goals": 0.7588235294117647,
+      "predicted_mean_goals": 0.755088825102041,
+      "mean_bias": -0.0037347043097236687
+    },
+    "oof_prediction_min": 0.636874231036267,
+    "oof_prediction_max": 0.8091929115795619
+  },
+  "reference_baselines": {
+    "historical_mean": {
+      "macro_poisson_deviance": 1.11587,
+      "pooled_poisson_deviance": 1.106694
+    },
+    "recent_20": {
+      "macro_poisson_deviance": 1.154657,
+      "pooled_poisson_deviance": 1.141576
+    }
+  },
+  "negative_binomial": {
+    "status": "rejected_as_primary_baseline",
+    "feature_set": "compact_statistical",
+    "best_dispersion_alpha": 0.01,
+    "macro_poisson_deviance": 1.1706071293191331,
+    "pooled_poisson_deviance": 1.1593668022423136
+  },
+  "compact_statistical_features": {
+    "numeric": [
+      "age_years",
+      "career_goals_per_game_pre",
+      "goals_per_game_last_20",
+      "goals_ewma_pre",
+      "goalless_streak_games_pre",
+      "days_rest",
+      "team_ronaldo_goals_per_game_pre",
+      "team_goals_for_last_5_scored_matches_pre",
+      "ronaldo_goals_per_game_vs_opponent_pre",
+      "matchup_elo_diff_pre",
+      "opponent_h2h_points_per_game_pre",
+      "opponent_goals_against_per_h2h_scored_match_pre",
+      "competition_importance",
+      "first_time_opponent_pre",
+      "no_h2h_score_history_pre"
+    ],
+    "categorical": [
+      "competition_type",
+      "venue"
+    ],
+    "all": [
+      "age_years",
+      "career_goals_per_game_pre",
+      "goals_per_game_last_20",
+      "goals_ewma_pre",
+      "goalless_streak_games_pre",
+      "days_rest",
+      "team_ronaldo_goals_per_game_pre",
+      "team_goals_for_last_5_scored_matches_pre",
+      "ronaldo_goals_per_game_vs_opponent_pre",
+      "matchup_elo_diff_pre",
+      "opponent_h2h_points_per_game_pre",
+      "opponent_goals_against_per_h2h_scored_match_pre",
+      "competition_importance",
+      "first_time_opponent_pre",
+      "no_h2h_score_history_pre",
+      "competition_type",
+      "venue"
+    ]
+  },
+  "diagnostic_notes": [
+    "Selected Poisson model is strongly regularized and well calibrated overall.",
+    "OOF predictions occupy a narrow range, indicating limited match-level discrimination.",
+    "Fold 2 remains the hardest temporal regime.",
+    "Negative Binomial dispersion did not improve expected-goal prediction.",
+    "Final 2025-2026 test was not used for model fitting or hyperparameter selection."
+  ]
+}

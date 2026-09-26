@@ -1,0 +1,79 @@
+{
+  "phase": "Phase 7 - Main Models",
+  "selection_policy": {
+    "primary_metric": "macro_poisson_deviance",
+    "secondary_checks": [
+      "pooled_poisson_deviance",
+      "mae",
+      "rmse",
+      "mean_bias",
+      "fold_stability"
+    ],
+    "final_test_used_for_selection": false
+  },
+  "selected_ensemble": {
+    "xgboost_weight": 0.6,
+    "catboost_weight": 0.4,
+    "macro_poisson_deviance": 1.106496,
+    "pooled_poisson_deviance": 1.096307,
+    "pooled_mae": 0.701696,
+    "pooled_bias": 0.007642
+  },
+  "xgboost": {
+    "feature_set": "context",
+    "excluded_identity_categoricals": [
+      "season",
+      "team",
+      "opponent",
+      "competition"
+    ],
+    "params": {
+      "objective": "count:poisson",
+      "n_estimators": 15,
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "min_child_weight": 10.0,
+      "subsample": 0.9,
+      "colsample_bytree": 0.8,
+      "reg_alpha": 0.0,
+      "reg_lambda": 20.0,
+      "random_state": 42,
+      "tree_method": "hist"
+    },
+    "macro_poisson_deviance": 1.109154,
+    "pooled_poisson_deviance": 1.098756,
+    "pooled_mae": 0.707668,
+    "pooled_bias": -0.00873
+  },
+  "catboost": {
+    "feature_set": "full",
+    "params": {
+      "loss_function": "Poisson",
+      "iterations": 100,
+      "depth": 2,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 20.0,
+      "random_seed": 42,
+      "verbose": false,
+      "allow_writing_files": false
+    },
+    "macro_poisson_deviance": 1.112413,
+    "pooled_poisson_deviance": 1.102292,
+    "pooled_mae": 0.693109,
+    "pooled_bias": 0.0322
+  },
+  "statistical_baseline": {
+    "model": "PoissonRegressor",
+    "feature_set": "no_season",
+    "alpha": 50.0,
+    "macro_poisson_deviance": 1.1139780281141487,
+    "pooled_poisson_deviance": 1.1048808087154376
+  },
+  "validation_notes": [
+    "The selected ensemble beat the best single XGBoost model in 3 of 4 folds.",
+    "Fold 2 remained a difficult low-scoring regime and was overpredicted.",
+    "Fold 3 remained a difficult rebound regime and was underpredicted.",
+    "Further tuning was stopped to reduce validation-set overfitting risk.",
+    "The final 2025-2026 test set remained untouched during model selection."
+  ]
+}

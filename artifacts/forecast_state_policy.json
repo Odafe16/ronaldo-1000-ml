@@ -1,0 +1,103 @@
+{
+  "forecast_cutoff": "2026-08-28",
+  "historical_starting_state": {
+    "career_appearances": 1333,
+    "career_goals": 978,
+    "goals_remaining_to_1000": 22
+  },
+  "model": {
+    "primary": "ensemble",
+    "xgboost_weight": 0.6,
+    "catboost_weight": 0.4,
+    "simulation_distribution": "poisson"
+  },
+  "feature_dependency_counts": {
+    "xgboost": {
+      "total": 80,
+      "fixture_known": 15,
+      "ronaldo_recursive": 35,
+      "external_state": 30
+    },
+    "catboost": {
+      "total": 84,
+      "fixture_known": 19,
+      "ronaldo_recursive": 35,
+      "external_state": 30
+    }
+  },
+  "state_update_policy": {
+    "ronaldo_recursive": "Update after each simulated Ronaldo appearance using simulated Ronaldo goals and appearance history.",
+    "fixture_known": "Calculate from the future fixture calendar using only information available independently of future match results.",
+    "external_state": "Initialize from the reconstructed historical state at the 2026-08-28 cutoff and carry forward without updates from unknown future team results, scores, assists, or Elo changes."
+  },
+  "external_state_groups": {
+    "assist_state": [
+      "career_assists_pre",
+      "assists_last_5",
+      "assists_last_10",
+      "assists_ewma_pre",
+      "season_assists_pre",
+      "ronaldo_assists_vs_opponent_pre"
+    ],
+    "team_form_state": [
+      "team_points_last_5_ronaldo_apps_pre",
+      "team_points_last_10_ronaldo_apps_pre",
+      "team_win_rate_last_5_ronaldo_apps_pre",
+      "team_unbeaten_rate_last_5_ronaldo_apps_pre",
+      "team_goals_for_last_5_scored_matches_pre",
+      "team_goals_against_last_5_scored_matches_pre",
+      "team_score_coverage_last_5_pre",
+      "no_team_score_history_pre"
+    ],
+    "h2h_result_state": [
+      "team_h2h_wins_pre",
+      "team_h2h_draws_pre",
+      "team_h2h_losses_pre",
+      "opponent_h2h_points_per_game_pre",
+      "opponent_h2h_unbeaten_rate_pre",
+      "opponent_goals_for_per_h2h_scored_match_pre",
+      "opponent_goals_against_per_h2h_scored_match_pre",
+      "opponent_clean_sheet_rate_h2h_scored_match_pre",
+      "opponent_score_data_h2h_matches_pre",
+      "no_h2h_score_history_pre"
+    ],
+    "elo_state": [
+      "team_matchup_elo_pre",
+      "opponent_matchup_elo_pre",
+      "matchup_elo_diff_pre",
+      "opponent_matchup_elo_games_pre",
+      "opponent_elo_unseen_pre",
+      "opponent_elo_experience_log_pre"
+    ]
+  },
+  "assist_ewma": {
+    "alpha": 0.3,
+    "historical_reconstruction_max_error": 0.0
+  },
+  "unseen_opponent_policy": {
+    "h2h_wins": 0,
+    "h2h_draws": 0,
+    "h2h_losses": 0,
+    "h2h_score_matches": 0,
+    "h2h_rates": 0.0,
+    "opponent_elo": 1500.0,
+    "opponent_elo_games": 0,
+    "opponent_elo_unseen": 1,
+    "opponent_elo_experience_log": 0.0,
+    "ronaldo_assists_vs_opponent": 0.0,
+    "basis": "Matches the historical first-meeting convention. 281 of 283 historical first meetings had unseen-opponent Elo state; the two exceptions were opponents already present elsewhere in the historical Elo network."
+  },
+  "future_fixture_policy": {
+    "confirmed_fixture_rows": 45,
+    "fixture_horizon_end": "2027-05-28",
+    "conditional_future_rounds_included": false,
+    "post_cutoff_results_allowed": false
+  },
+  "known_limitations": [
+    "Future assists are not simulated, so assist-dependent features are held at their cutoff state.",
+    "Future team scores and results are not simulated, so team-form and score-based H2H features are held at their cutoff state.",
+    "Future Elo changes are not simulated; cutoff Elo ratings are carried forward.",
+    "Opponent-specific historical state is preserved rather than replacing seen opponents with generic defaults.",
+    "Appearance uncertainty is not yet resolved and will be handled separately from goal-generation uncertainty."
+  ]
+}

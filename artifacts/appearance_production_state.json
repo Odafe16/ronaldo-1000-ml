@@ -1,0 +1,35 @@
+{
+  "model_name": "catboost_historical_rate_blend",
+  "cutoff": "2026-08-28",
+  "training_rows": 1584,
+  "appearances": 1333,
+  "nonappearances": 251,
+  "historical_appearance_rate": 0.8415404040404041,
+  "features": [
+    "appeared_previous_pre",
+    "appearance_rate_last_5_pre",
+    "appearance_rate_last_10_pre",
+    "consecutive_appearances_pre",
+    "days_since_last_fixture_pre",
+    "fixtures_last_7_days_pre",
+    "fixtures_last_14_days_pre",
+    "age_years_pre",
+    "is_national_team",
+    "fixture_month",
+    "team_appeared_previous_pre",
+    "team_appearance_rate_last_5_pre",
+    "team",
+    "competition",
+    "venue"
+  ],
+  "categorical_features": [
+    "team",
+    "competition",
+    "venue"
+  ],
+  "blend": {
+    "catboost_weight": 0.5,
+    "historical_rate_weight": 0.5
+  },
+  "model_file": "appearance_catboost_production.cbm"
+}

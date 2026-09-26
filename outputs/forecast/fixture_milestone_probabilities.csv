@@ -1,0 +1,46 @@
+fixture_id,date,team,opponent,competition,competition_type,venue,forecast_cutoff,fixture_status,result_used,opponent_display,fixture_index,milestone_count,milestone_probability,cumulative_milestone_probability
+future_001,2026-09-05,Al-Nassr,Al-Ittihad FC,Pro League,domestic_league,A,2026-08-28,confirmed,False,Al Ittihad,1,0,0.0,0.0
+future_002,2026-09-09,Al-Nassr,Abha,Pro League,domestic_league,H,2026-08-28,confirmed,False,Abha,2,0,0.0,0.0
+future_003,2026-09-12,Al-Nassr,Al Khaleej Saihat,Pro League,domestic_league,A,2026-08-28,confirmed,False,Al Khaleej,3,0,0.0,0.0
+future_004,2026-09-15,Al-Nassr,Al Ain,AFC Champions League Elite,continental_club,A,2026-08-28,confirmed,False,Al Ain,4,0,0.0,0.0
+future_005,2026-09-24,Portugal,Wales,UEFA Nations League,international,H,2026-08-28,confirmed,False,Wales,5,0,0.0,0.0
+future_006,2026-09-27,Portugal,Norway,UEFA Nations League,international,A,2026-08-28,confirmed,False,Norway,6,0,0.0,0.0
+future_007,2026-10-01,Portugal,Denmark,UEFA Nations League,international,A,2026-08-28,confirmed,False,Denmark,7,0,0.0,0.0
+future_008,2026-10-04,Portugal,Norway,UEFA Nations League,international,H,2026-08-28,confirmed,False,Norway,8,0,0.0,0.0
+future_009,2026-10-09,Al-Nassr,Diriyah Club,Pro League,domestic_league,H,2026-08-28,confirmed,False,Diriyah Club,9,0,0.0,0.0
+future_010,2026-10-12,Al-Nassr,Neftchi,AFC Champions League Elite,continental_club,H,2026-08-28,confirmed,False,Neftchi,10,0,0.0,0.0
+future_011,2026-10-15,Al-Nassr,Al-Ahli Jeddah,Pro League,domestic_league,A,2026-08-28,confirmed,False,Al Ahli,11,0,0.0,0.0
+future_012,2026-10-20,Al-Nassr,NEOM,Pro League,domestic_league,H,2026-08-28,confirmed,False,NEOM,12,0,0.0,0.0
+future_013,2026-10-23,Al-Nassr,Al Faisaly,Pro League,domestic_league,A,2026-08-28,confirmed,False,Al Faisaly,13,0,0.0,0.0
+future_014,2026-10-26,Al-Nassr,Al-Wasl FC,AFC Champions League Elite,continental_club,H,2026-08-28,confirmed,False,Al Wasl,14,1,0.001,0.001
+future_015,2026-10-29,Al-Nassr,Al Kholood,Pro League,domestic_league,H,2026-08-28,confirmed,False,Al Kholood,15,0,0.0,0.001
+future_016,2026-11-02,Al-Nassr,Pakhtakor,AFC Champions League Elite,continental_club,A,2026-08-28,confirmed,False,Pakhtakor,16,2,0.002,0.003
+future_017,2026-11-05,Al-Nassr,Al-Hazm,Pro League,domestic_league,A,2026-08-28,confirmed,False,Al Hazem,17,1,0.001,0.004
+future_018,2026-11-14,Portugal,Denmark,UEFA Nations League,international,H,2026-08-28,confirmed,False,Denmark,18,10,0.01,0.014
+future_019,2026-11-17,Portugal,Wales,UEFA Nations League,international,A,2026-08-28,confirmed,False,Wales,19,5,0.005,0.019
+future_020,2026-11-20,Al-Nassr,Al-Qadisiyah FC,Pro League,domestic_league,H,2026-08-28,confirmed,False,Al Qadsiah,20,9,0.009,0.027999999999999997
+future_021,2026-11-24,Al-Nassr,Al Sadd,AFC Champions League Elite,continental_club,H,2026-08-28,confirmed,False,Al Sadd,21,15,0.015,0.043
+future_022,2026-11-26,Al-Nassr,Al Shabab,Pro League,domestic_league,H,2026-08-28,confirmed,False,Al Shabab,22,14,0.014,0.056999999999999995
+future_023,2026-12-01,Al-Nassr,Al Kholood,King's Cup,domestic_or_other_cup,H,2026-08-28,confirmed,False,Al Kholood,23,19,0.019,0.076
+future_024,2026-12-03,Al-Nassr,Al-Fayha,Pro League,domestic_league,A,2026-08-28,confirmed,False,Al Fayha,24,24,0.024,0.1
+future_025,2026-12-08,Al-Nassr,Al-Gharafa,AFC Champions League Elite,continental_club,A,2026-08-28,confirmed,False,Al Gharafa,25,25,0.025,0.125
+future_026,2026-12-10,Al-Nassr,Al-Hilal,Pro League,domestic_league,H,2026-08-28,confirmed,False,Al Hilal,26,26,0.026,0.151
+future_027,2026-12-14,Al-Nassr,Al-Fateh,Pro League,domestic_league,A,2026-08-28,confirmed,False,Al Fateh,27,45,0.045,0.196
+future_028,2027-02-08,Al-Nassr,Al Shamal,AFC Champions League Elite,continental_club,H,2026-08-28,confirmed,False,Al Shamal,28,29,0.029,0.225
+future_029,2027-02-11,Al-Nassr,Al Riyadh,Pro League,domestic_league,H,2026-08-28,confirmed,False,Al Riyadh,29,62,0.062,0.28700000000000003
+future_030,2027-02-15,Al-Nassr,Shabab Al Ahli Dubai,AFC Champions League Elite,continental_club,A,2026-08-28,confirmed,False,Shabab Al-Ahli,30,46,0.046,0.333
+future_031,2027-02-18,Al-Nassr,Al-Ettifaq,Pro League,domestic_league,H,2026-08-28,confirmed,False,Al-Ettifaq,31,59,0.059,0.392
+future_032,2027-02-25,Al-Nassr,Al Taawon,Pro League,domestic_league,A,2026-08-28,confirmed,False,Al Taawoun,32,58,0.058,0.45
+future_033,2027-03-11,Al-Nassr,Al-Ittihad FC,Pro League,domestic_league,H,2026-08-28,confirmed,False,Al Ittihad,33,59,0.059,0.509
+future_034,2027-03-18,Al-Nassr,Abha,Pro League,domestic_league,A,2026-08-28,confirmed,False,Abha,34,73,0.073,0.582
+future_035,2027-04-02,Al-Nassr,Al Khaleej Saihat,Pro League,domestic_league,H,2026-08-28,confirmed,False,Al Khaleej,35,49,0.049,0.631
+future_036,2027-04-08,Al-Nassr,Diriyah Club,Pro League,domestic_league,A,2026-08-28,confirmed,False,Diriyah Club,36,54,0.054,0.685
+future_037,2027-04-15,Al-Nassr,Al-Ahli Jeddah,Pro League,domestic_league,H,2026-08-28,confirmed,False,Al Ahli,37,47,0.047,0.7320000000000001
+future_038,2027-04-18,Al-Nassr,NEOM,Pro League,domestic_league,A,2026-08-28,confirmed,False,NEOM,38,40,0.04,0.7720000000000001
+future_039,2027-04-22,Al-Nassr,Al Faisaly,Pro League,domestic_league,H,2026-08-28,confirmed,False,Al Faisaly,39,37,0.037,0.8090000000000002
+future_040,2027-04-29,Al-Nassr,Al Kholood,Pro League,domestic_league,A,2026-08-28,confirmed,False,Al Kholood,40,30,0.03,0.8390000000000002
+future_041,2027-05-06,Al-Nassr,Al-Hazm,Pro League,domestic_league,H,2026-08-28,confirmed,False,Al Hazem,41,32,0.032,0.8710000000000002
+future_042,2027-05-12,Al-Nassr,Al-Qadisiyah FC,Pro League,domestic_league,A,2026-08-28,confirmed,False,Al Qadsiah,42,22,0.022,0.8930000000000002
+future_043,2027-05-20,Al-Nassr,Al Shabab,Pro League,domestic_league,A,2026-08-28,confirmed,False,Al Shabab,43,19,0.019,0.9120000000000003
+future_044,2027-05-24,Al-Nassr,Al-Fayha,Pro League,domestic_league,H,2026-08-28,confirmed,False,Al Fayha,44,20,0.02,0.9320000000000003
+future_045,2027-05-28,Al-Nassr,Al-Hilal,Pro League,domestic_league,A,2026-08-28,confirmed,False,Al Hilal,45,17,0.017,0.9490000000000003

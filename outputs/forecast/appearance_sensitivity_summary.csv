@@ -1,0 +1,4 @@
+scenario,simulations,completed,unfinished,completion_probability,median_date,p10_date,p90_date,mean_appearances,mean_goals_remaining
+Conservative,1000,878,122,0.878,2027-04-02,2026-12-10 00:00:00,2027-05-12,26.873,0.383
+Baseline,1000,942,58,0.942,2027-02-25,2026-12-03 12:00:00,2027-05-06,27.068,0.166
+Optimistic,1000,964,36,0.964,2027-02-18,2026-12-01 00:00:00,2027-04-22,27.096,0.081

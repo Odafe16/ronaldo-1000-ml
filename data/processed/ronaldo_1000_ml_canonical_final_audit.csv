@@ -1,0 +1,16 @@
+check,value
+rows,1333
+columns,92
+target_goals_total,978
+ronaldo_goals_total,978
+ronaldo_assists_total,261
+duplicate_match_ids,0
+missing_scores,0
+score_result_mismatches,0
+target_goal_mismatches,0
+national_team_flag_mismatches,0
+chronology_valid,True
+date_discrepancy_flags,6
+elo_state_errors,0
+postmatch_columns_excluded_from_future_model_features,"team_goals, opponent_goals, result, ronaldo_goals, ronaldo_assists, source_status"
+audit_status,PASS

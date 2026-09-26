@@ -1,0 +1,19 @@
+{
+  "primary_target": "target_goals",
+  "primary_metric": "poisson_deviance",
+  "secondary_metrics": [
+    "mae",
+    "rmse",
+    "mean_bias"
+  ],
+  "aggregation": [
+    "macro_fold_average",
+    "pooled_oof"
+  ],
+  "final_test_start": "2025-01-01",
+  "probability_targets": [
+    "target_scored",
+    "target_multi_goal"
+  ],
+  "selection_rule": "Prefer the model with the lowest macro Poisson deviance, while checking pooled Poisson deviance, MAE, RMSE, bias, fold stability, and probability calibration."
+}
