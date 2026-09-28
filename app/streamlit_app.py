@@ -21,11 +21,22 @@ from app.services.fixture_features import (
 )
 from app.services.goal_predictor import GoalPredictor
 
+from app.services.state_updater import (
+    replay_match_updates,
+    get_next_uncompleted_fixture,
+)
+from app.services.prediction_history import (
+    build_prediction_history,
+    calculate_prediction_performance,
+)
 import altair as alt
 
 
 
 FORECAST_DIR = ROOT / "outputs" / "forecast"
+LIVE_UPDATES_PATH = (
+    ROOT / "data" / "live" / "ronaldo_match_updates.csv"
+)
 
 st.set_page_config(
     page_title="Ronaldo | Road to 1000",
@@ -224,7 +235,7 @@ line_chart = (
 
 st.altair_chart(
     line_chart,
-    use_container_width=True,
+    width="stretch",
 )
 st.caption(
     "Each line represents an appearance scenario. "
@@ -241,11 +252,9 @@ st.divider()
 
 st.subheader("Next Fixture Prediction")
 
-st.caption(
-    "Pre-match forecast using the historical data cutoff "
-    "of 28 August 2026. This is a frozen prediction, "
-    "not a live match update."
-)
+
+
+
 
 
 @st.cache_data
@@ -254,6 +263,10 @@ def load_future_fixtures():
         FORECAST_DIR / "future_fixtures.csv"
     )
 
+
+@st.cache_data
+def load_match_updates():
+    return pd.read_csv(LIVE_UPDATES_PATH)
 
 @st.cache_resource
 def load_goal_predictor():
@@ -266,12 +279,38 @@ def load_prediction_artifacts():
 
 
 future_fixtures = load_future_fixtures()
+match_updates = load_match_updates()
 
-# Only the first fixture has been validated against the
-# original notebook forecast so far.
-fixture = future_fixtures.iloc[4]
+initial_state, static_cache = load_prediction_artifacts()
 
-state, static_cache = load_prediction_artifacts()
+state, completed_fixture_ids = replay_match_updates(
+    initial_state=initial_state,
+    future_fixtures=future_fixtures,
+    match_updates=match_updates,
+)
+
+fixture = get_next_uncompleted_fixture(
+    future_fixtures=future_fixtures,
+    completed_fixture_ids=completed_fixture_ids,
+)
+
+if fixture is None:
+    st.error(
+        "No remaining fixtures are available in the current forecast schedule."
+    )
+    st.stop()
+
+fixture_datetime = pd.to_datetime(fixture["date"])
+today = pd.Timestamp.now().normalize()
+
+if fixture_datetime.normalize() < today:
+    st.warning(
+        f"Match update required: {fixture['team']} vs "
+        f"{fixture['opponent_display']} on "
+        f"{fixture_datetime.strftime('%d %B %Y')} has already passed. "
+        "Record the actual appearance and goals before treating the "
+        "next-match prediction as current."
+    )
 
 fixture_input = build_fixture_features(
     fixture=fixture,
@@ -282,6 +321,220 @@ fixture_input = build_fixture_features(
 predictor = load_goal_predictor()
 prediction = predictor.predict(fixture_input)
 
+prediction_history = build_prediction_history(
+    initial_state=initial_state,
+    static_cache=static_cache,
+    future_fixtures=future_fixtures,
+    match_updates=match_updates,
+    predictor=predictor,
+)
+
+evaluated_history = prediction_history[
+    prediction_history["appeared"] == 1
+].copy()
+
+performance = calculate_prediction_performance(
+    prediction_history
+)
+
+
+# Past Fixture section can now safely use prediction_history
+st.divider()
+
+st.subheader("Past Fixture Predictions & Model Performance")
+
+st.caption(
+    "Review reconstructed pre-match forecasts from the frozen model "
+    "and compare them with Ronaldo's actual match outcomes."
+)
+
+if prediction_history.empty:
+    st.info("No completed post-cutoff fixtures have been recorded yet.")
+else:
+    history_display = prediction_history.sort_values(
+        "date",
+        ascending=False,
+    ).copy()
+
+    history_display["fixture_label"] = history_display.apply(
+        lambda row: (
+            f"{row['date'].strftime('%d %b %Y')} · "
+            f"{row['team']} vs {row['opponent_display']}"
+            + (" · DNP" if row["appeared"] == 0 else "")
+        ),
+        axis=1,
+    )
+
+    selected_fixture_id = st.selectbox(
+        "Select a completed fixture",
+        options=history_display["fixture_id"].tolist(),
+        format_func=lambda fixture_id: history_display.loc[
+            history_display["fixture_id"] == fixture_id,
+            "fixture_label",
+        ].iloc[0],
+    )
+
+    selected_history = history_display.loc[
+        history_display["fixture_id"] == selected_fixture_id
+    ].iloc[0]
+
+
+st.markdown(
+    f"### {selected_history['team']} vs "
+    f"{selected_history['opponent_display']}"
+)
+
+st.caption(
+    f"{selected_history['date'].strftime('%d %B %Y')} · "
+    f"{selected_history['competition']} · "
+    f"{'Home' if selected_history['venue'] == 'H' else 'Away'}"
+)
+
+if selected_history["appeared"] == 0:
+    st.info(
+        "Ronaldo did not appear in this fixture. The pre-match forecast "
+        "was conditional on him playing, so this match is excluded from "
+        "model-performance calculations."
+    )
+else:
+    col1, col2, col3, col4 = st.columns(4)
+
+    col1.metric(
+        "Expected Goals",
+        f"{selected_history['expected_goals']:.2f}",
+    )
+
+    col2.metric(
+        "Probability of Scoring",
+        f"{selected_history['p_scores'] * 100:.1f}%",
+    )
+
+    col3.metric(
+        "Probability of 2+ Goals",
+        f"{(
+            selected_history['p_2']
+            + selected_history['p_3_plus']
+        ) * 100:.1f}%",
+    )
+
+    col4.metric(
+        "Actual Goals",
+        int(selected_history["actual_goals"]),
+    )
+    
+    if performance is not None:
+        st.markdown("#### Post-Cutoff Model Performance")
+    
+        st.caption(
+            "Performance across completed fixtures where Ronaldo appeared. "
+            "This is an early out-of-sample sample and will become more "
+            "informative as additional matches are recorded."
+        )
+    
+        perf_col1, perf_col2, perf_col3, perf_col4 = st.columns(4)
+    
+        perf_col1.metric(
+            "Appearances Evaluated",
+            performance["matches"],
+        )
+    
+        perf_col2.metric(
+            "Actual Goals",
+            performance["actual_goals"],
+        )
+    
+        perf_col3.metric(
+            "Expected Goals",
+            f"{performance['expected_goals']:.2f}",
+        )
+    
+        perf_col4.metric(
+            "Scoring Rate",
+            f"{performance['actual_scoring_rate'] * 100:.1f}%",
+            help=(
+                "Percentage of evaluated appearances in which Ronaldo "
+                "scored at least one goal."
+            ),
+        )
+    
+        st.caption(
+            f"Average model probability of scoring: "
+            f"**{performance['average_scoring_probability'] * 100:.1f}%** "
+            f"· Observed scoring frequency: "
+            f"**{performance['actual_scoring_rate'] * 100:.1f}%**"
+        )
+        
+        chart_data = evaluated_history.copy()
+
+        chart_data = chart_data.sort_values("date")
+
+        chart_data["fixture"] = chart_data.apply(
+            lambda row: (
+                f"{row['date'].strftime('%d %b')} · "
+                f"{row['opponent_display']}"
+            ),
+            axis=1,
+        )
+
+        performance_chart_data = chart_data[
+            ["fixture", "expected_goals", "actual_goals"]
+        ].melt(
+            id_vars="fixture",
+            var_name="metric",
+            value_name="goals",
+        )
+        
+        performance_chart_data["metric"] = performance_chart_data[
+            "metric"
+        ].map(
+            {
+                "expected_goals": "Expected Goals",
+                "actual_goals": "Actual Goals",
+            }
+        )
+        
+        performance_chart = (
+            alt.Chart(performance_chart_data)
+            .mark_bar()
+            .encode(
+                x=alt.X(
+                    "fixture:N",
+                    title=None,
+                    sort=chart_data["fixture"].tolist(),
+                    axis=alt.Axis(labelAngle=-35),
+                ),
+                y=alt.Y(
+                    "goals:Q",
+                    title="Goals",
+                    scale=alt.Scale(domainMin=0),
+                ),
+                xOffset="metric:N",
+                color=alt.Color(
+                    "metric:N",
+                    title=None,
+                ),
+                tooltip=[
+                    alt.Tooltip("fixture:N", title="Fixture"),
+                    alt.Tooltip("metric:N", title="Metric"),
+                    alt.Tooltip(
+                        "goals:Q",
+                        title="Goals",
+                        format=".2f",
+                    ),
+                ],
+            )
+            .properties(
+                height=320,
+                title="Expected vs Actual Goals by Appearance",
+            )
+        )
+        
+        st.altair_chart(
+            performance_chart,
+            width="stretch",
+        )
+
+
 fixture_date = pd.to_datetime(
     fixture["date"]
 ).strftime("%d %B %Y")
@@ -289,6 +542,23 @@ fixture_date = pd.to_datetime(
 st.markdown(
     f"## {fixture['team']} vs {fixture['opponent_display']}"
 )
+
+st.caption(
+    "Pre-match forecast from models frozen at the 28 August 2026 "
+    "training cutoff, with Ronaldo's match state updated as completed "
+    "fixtures are recorded."
+)
+
+
+if state["appearance_dates"]:
+    state_updated_through = pd.Timestamp(
+        state["appearance_dates"][-1]
+    ).strftime("%d %B %Y")
+
+    st.caption(
+        f"Rolling player state updated through: "
+        f"**{state_updated_through}**"
+    )
 
 venue_labels = {
     "H": "Home",
@@ -374,7 +644,7 @@ goal_chart = (
 
 st.altair_chart(
     goal_chart,
-    use_container_width=True,
+    width="stretch",
 )
 
 
@@ -576,7 +846,7 @@ selected_rule = (
 
 st.altair_chart(
     line + selected_rule + highlight,
-    use_container_width=True,
+    width="stretch",
 )
 
 st.caption(
@@ -673,7 +943,7 @@ with st.expander("View Complete Fixture Forecast Table"):
             "cumulative_milestone_count": "Reached 1,000 By Here",
         },
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
     
 st.caption(
