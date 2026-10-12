@@ -61,6 +61,38 @@ def load_forecast():
 
 forecast, monthly_forecast = load_forecast()
 
+@st.cache_data
+def load_future_fixtures():
+    return pd.read_csv(
+        FORECAST_DIR / "future_fixtures.csv"
+    )
+
+
+@st.cache_data
+def load_match_updates():
+    return pd.read_csv(LIVE_UPDATES_PATH)
+
+@st.cache_resource
+def load_goal_predictor():
+    return GoalPredictor()
+
+
+@st.cache_data
+def load_prediction_artifacts():
+    return load_fixture_artifacts()
+
+
+future_fixtures = load_future_fixtures()
+match_updates = load_match_updates()
+
+initial_state, static_cache = load_prediction_artifacts()
+
+state, completed_fixture_ids = replay_match_updates(
+    initial_state=initial_state,
+    future_fixtures=future_fixtures,
+    match_updates=match_updates,
+)
+
 st.sidebar.title("RONALDO → 1000")
 
 scenario = st.sidebar.selectbox(
@@ -88,29 +120,44 @@ st.caption(
 
 st.divider()
 
+# Live career progress
+career_goals = int(state["career_goal_total"])
+milestone_target = 1000
+goals_remaining = max(0, milestone_target - career_goals)
+progress_pct = (career_goals / milestone_target) * 100
+
 col1, col2, col3, col4 = st.columns(4)
 
 col1.metric(
     "Career Goals",
-    "978",
+    f"{career_goals:,}",
 )
 
 col2.metric(
     "Goals Remaining",
-    "22",
+    f"{goals_remaining:,}",
 )
 
 col3.metric(
     "Milestone Target",
-    "1,000",
+    f"{milestone_target:,}",
 )
 
 col4.metric(
     "Progress",
-    "97.8%",
+    f"{progress_pct:.1f}%",
 )
 
-st.progress(978 / 1000, text="978 of 1,000 career goals")
+st.progress(
+    min(1.0, career_goals / milestone_target),
+    text=f"{career_goals:,} of {milestone_target:,} career goals",
+)
+
+st.caption(
+    "Career progress reflects the latest recorded match updates. "
+    "Milestone forecast probabilities remain based on the frozen "
+    "28 August 2026 forecast."
+)
 
 st.divider()
 
@@ -257,37 +304,7 @@ st.subheader("Next Fixture Prediction")
 
 
 
-@st.cache_data
-def load_future_fixtures():
-    return pd.read_csv(
-        FORECAST_DIR / "future_fixtures.csv"
-    )
 
-
-@st.cache_data
-def load_match_updates():
-    return pd.read_csv(LIVE_UPDATES_PATH)
-
-@st.cache_resource
-def load_goal_predictor():
-    return GoalPredictor()
-
-
-@st.cache_data
-def load_prediction_artifacts():
-    return load_fixture_artifacts()
-
-
-future_fixtures = load_future_fixtures()
-match_updates = load_match_updates()
-
-initial_state, static_cache = load_prediction_artifacts()
-
-state, completed_fixture_ids = replay_match_updates(
-    initial_state=initial_state,
-    future_fixtures=future_fixtures,
-    match_updates=match_updates,
-)
 
 fixture = get_next_uncompleted_fixture(
     future_fixtures=future_fixtures,
