@@ -217,7 +217,12 @@ def get_next_uncompleted_fixture(
 
     fixtures = future_fixtures.copy()
     fixtures["date"] = pd.to_datetime(fixtures["date"])
-
+    
+    if "fixture_status" in fixtures.columns:
+        fixtures = fixtures[
+            fixtures["fixture_status"].fillna("").str.lower().str.strip() != "postponed"
+        ]
+    
     fixtures = fixtures.sort_values("date")
 
     remaining = fixtures[
