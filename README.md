@@ -332,6 +332,8 @@ Key limitations include:
 - The Poisson simulation assumes the predicted expected-goals rate provides an appropriate basis for generating match-level goal counts.
 - Appearance probabilities introduce an additional source of uncertainty into long-term milestone forecasts.
 - The forecast horizon ends on **28 May 2027**, so simulations that have not reached 1,000 goals by then are treated as unfinished rather than assumed never to reach the milestone.
+- Limited access to detailed match-level data:** The available dataset lacks potentially valuable predictors such as shot quality (xG), shots on target, opponent defensive performance, expected playing time, and player fitness. These limitations restrict the information available to the goal-scoring model.
+- Limited differentiation between scoring opportunities:** Without richer match context, the model may struggle to distinguish between particularly favorable and unfavorable fixtures, potentially contributing to a narrower range of predicted scoring probabilities. This remains a possible explanation rather than an experimentally established cause.
 
 The project is therefore best interpreted as:
 
