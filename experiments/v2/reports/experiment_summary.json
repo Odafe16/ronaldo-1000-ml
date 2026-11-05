@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-11-03T09:49:00.767643+00:00",
+  "status": "experimental_not_promoted",
+  "selection_metric": "macro_poisson_deviance",
+  "validation_appearances": 340,
+  "validation_folds": 4,
+  "version_1": {
+    "xgboost_iterations": 15,
+    "catboost_iterations": 100,
+    "xgboost_weight": 0.6,
+    "catboost_weight": 0.4,
+    "macro_poisson_deviance": 1.1064964528771097
+  },
+  "version_2_candidate": {
+    "xgboost_iterations": 15,
+    "catboost_iterations": 150,
+    "xgboost_weight": 0.6,
+    "catboost_weight": 0.4,
+    "macro_poisson_deviance": 1.1036694635407402
+  },
+  "robustness": {
+    "appearances_improved": 192,
+    "appearances_worsened": 148,
+    "bootstrap_iterations": 5000,
+    "bootstrap_interval_95": [
+      -0.006242078042470783,
+      0.0006408289559645292
+    ],
+    "bootstrap_fraction_favoring_v2": 0.9508
+  },
+  "limitations": [
+    "Candidate selected using the same validation folds.",
+    "Bootstrap does not fully account for temporal dependence.",
+    "No independent final-test evaluation performed.",
+    "Version 1 models and artifacts remain unchanged."
+  ]
+}

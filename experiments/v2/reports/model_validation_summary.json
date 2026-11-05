@@ -1,0 +1,38 @@
+{
+  "experiment": "Version 2 Model Validation",
+  "status": "experimental_not_promoted",
+  "generated_at_utc": "2026-11-04T09:28:05.074721+00:00",
+  "validation": {
+    "strategy": "expanding_window_chronological",
+    "folds": 4,
+    "appearances": 340,
+    "final_test_used": false,
+    "baseline_training_boundaries_verified": true
+  },
+  "macro_poisson_deviance": {
+    "historical_baseline": 1.1158696011105809,
+    "version_1": 1.1064964528771097,
+    "version_2": 1.1036694635407402
+  },
+  "version_2_improvement_pct": {
+    "vs_version_1": 0.25549013998361747,
+    "vs_historical_baseline": 1.0933300412250953
+  },
+  "paired_comparison": {
+    "v2_vs_v1_improved_matches": 192,
+    "v2_vs_baseline_improved_matches": 181
+  },
+  "baseline_bootstrap": {
+    "repetitions": 5000,
+    "observed_macro_change": -0.012200137569840619,
+    "interval_95": [
+      -0.036410476775935625,
+      0.011129866664118315
+    ],
+    "fraction_favoring_v2": 0.8438
+  },
+  "promotion_decision": {
+    "promote_version_2": false,
+    "reason": "Observed improvements are modest, inconsistent across folds, and uncertain under exploratory bootstrap analysis."
+  }
+}

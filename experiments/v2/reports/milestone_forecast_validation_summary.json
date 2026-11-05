@@ -1,0 +1,64 @@
+{
+  "experiment": "V2 milestone forecast validation",
+  "status": "validated_saved_outputs",
+  "forecast_horizon_fixtures": 45,
+  "fixture_forecast": {
+    "simulations": 1000,
+    "completed": 949,
+    "unfinished": 51,
+    "completion_probability": 0.949,
+    "monte_carlo_standard_error": 0.006956938982052382
+  },
+  "appearance_sensitivity": {
+    "Baseline": {
+      "simulations": 1000,
+      "completed": 942,
+      "unfinished": 58,
+      "completion_probability": 0.942,
+      "conditional_median_date": "2027-02-25T00:00:00",
+      "conditional_p10_date": "2026-12-03T12:00:00",
+      "conditional_p90_date": "2027-05-06T00:00:00"
+    },
+    "Conservative": {
+      "simulations": 1000,
+      "completed": 878,
+      "unfinished": 122,
+      "completion_probability": 0.878,
+      "conditional_median_date": "2027-04-02T00:00:00",
+      "conditional_p10_date": "2026-12-10T00:00:00",
+      "conditional_p90_date": "2027-05-12T00:00:00"
+    },
+    "Optimistic": {
+      "simulations": 1000,
+      "completed": 964,
+      "unfinished": 36,
+      "completion_probability": 0.964,
+      "conditional_median_date": "2027-02-18T00:00:00",
+      "conditional_p10_date": "2026-12-01T00:00:00",
+      "conditional_p90_date": "2027-04-22T00:00:00"
+    }
+  },
+  "baseline_comparison": {
+    "fixture_completion_probability": 0.949,
+    "sensitivity_completion_probability": 0.942,
+    "difference_percentage_points": 0.7000000000000006,
+    "independent_run_standard_error_percentage_points": 1.0150615744869869,
+    "standardized_difference": 0.68961333735225,
+    "assumption": "Independent Monte Carlo runs with comparable underlying assumptions; not independently verified."
+  },
+  "validation": {
+    "fixture_probability_integrity": "passed",
+    "scenario_summary_reconstruction": "passed",
+    "individual_simulation_integrity": "passed",
+    "historical_milestone_date_backtest": "not_performed"
+  },
+  "limitations": [
+    "Saved forecast outputs were validated without rerunning the simulation engine.",
+    "Historical milestone-date predictive accuracy was not evaluated.",
+    "Saved simulation paths do not expose every recursive match-level state.",
+    "Milestone-date quantiles are conditional on completion within the forecast horizon.",
+    "The fixture-level and sensitivity baseline experiments may use different simulation settings.",
+    "Monte Carlo standard errors describe simulation sampling uncertainty, not model uncertainty.",
+    "Results depend on the forecast cutoff, fixture schedule, model assumptions, and appearance scenarios."
+  ]
+}
