@@ -219,8 +219,13 @@ def get_next_uncompleted_fixture(
     fixtures["date"] = pd.to_datetime(fixtures["date"])
     
     if "fixture_status" in fixtures.columns:
+        excluded_statuses = {"postponed", "excluded"}
         fixtures = fixtures[
-            fixtures["fixture_status"].fillna("").str.lower().str.strip() != "postponed"
+            ~fixtures["fixture_status"]
+            .fillna("")
+            .str.lower()
+            .str.strip()
+            .isin(excluded_statuses)
         ]
     
     fixtures = fixtures.sort_values("date")

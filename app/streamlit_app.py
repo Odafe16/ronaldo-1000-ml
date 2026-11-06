@@ -154,9 +154,11 @@ st.progress(
 )
 
 st.caption(
-    "Career progress reflects the latest recorded match updates. "
-    "Milestone forecast probabilities remain based on the frozen "
-    "28 August 2026 forecast."
+    "Career progress and next-match predictions reflect the latest "
+    "recorded results and fixture updates. Milestone probabilities "
+    "remain based on the original 28 August 2026 forecast and have "
+    "not been recalculated for subsequent postponements or "
+    "Ronaldo's international retirement."
 )
 
 st.divider()
